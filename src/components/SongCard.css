@@ -1,0 +1,34 @@
+/* Styles for Card component */
+.card {
+    max-width: 50%;
+    margin-bottom: 16px;
+}
+
+/* Flexbox container for text and image inside the card body */
+.card-content {
+    display: flex;
+    justify-content: space-between; /* Ensures space between text and image */
+    align-items: center;
+    width: 100%;
+}
+
+/* Allow the text to take up the remaining space */
+.card-text {
+    flex-grow: 1;  /* Allows the text to expand and fill remaining space */
+}
+
+/* Container for the image, keeping it fixed size */
+.card-image {
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0; /* Prevents the image from shrinking when text grows */
+    margin-left: auto; /* Pushes the image to the right */
+}
+
+/* Image styling */
+.card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}

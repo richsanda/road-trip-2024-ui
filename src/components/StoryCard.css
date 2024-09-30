@@ -1,0 +1,104 @@
+/* StoryCard.css */
+
+/* Card container styling */
+.card {
+    margin-bottom: 1rem; /* Space between cards */
+}
+
+/* Ensure body content stacks correctly */
+.card-body {
+    display: flex;
+    flex-direction: column; /* Stack header and body content vertically */
+    padding: 1rem;
+}
+
+/* Header styling */
+.card-header {
+    display: flex;
+    justify-content: space-between; /* Space out the items */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 1rem; /* Space below the header */
+    width: 100%; /* Ensure it fills the width of the card */
+}
+
+/* Container for the title and other inline info */
+.card-title-container {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    gap: 10px; /* Space between items */
+    flex: 1; /* Make the container take available space */
+}
+
+/* Title styling */
+.card-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #000; /* Ensure title is black or as desired */
+    margin-right: auto; /* Push the dropdown and other info to the right */
+}
+
+/* Type (category, date dropdown, etc.) styling */
+.card-type {
+    font-weight: normal;
+    font-size: 1.1rem;
+    color: #27408B; /* Adjust color as needed */
+}
+
+/* Date dropdown pinned to the right */
+.date-dropdown-container {
+    display: flex;
+    align-items: center; /* Center the dropdown vertically */
+    margin-left: auto; /* Push the dropdown to the far right */
+}
+
+/* Body text styling */
+.card-body-content {
+    margin-top: 1rem; /* Space above body text */
+    min-width: 100%;
+    text-align: left;
+}
+
+.card-text {
+    font-size: 1rem;
+    text-align: left; /* Align text to the left */
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1.25rem;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.card-title-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-type {
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+
+.card-time {
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+
+.date-dropdown-container {
+    display: flex;
+    align-items: center;
+}
+
+.story-line {
+    min-width: 100%;
+    text-align: left;
+    padding: 4px;
+}
+

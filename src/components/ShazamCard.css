@@ -1,0 +1,9 @@
+/* Styles for Card component */
+.card {
+    max-width: 50%; 
+    margin-bottom: 16px;
+}
+
+.card-img {
+    border-radius: 8px; 
+}

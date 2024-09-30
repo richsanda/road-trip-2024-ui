@@ -1,0 +1,32 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh; /* Set height to 100% of the viewport */
+}
+
+.header-container {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  margin-bottom: 16px; /* Space below header */
+  padding: 16px; /* Optional padding for aesthetics */
+  background-color: white; /* Ensure header stands out */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for separation */
+}
+
+.date-grid-container {
+  margin-left: 16px; /* Space between header and calendar */
+}
+
+.records-list-container {
+  flex: 1; /* Take up remaining space */
+  overflow-y: auto; /* Enable scrolling */
+  padding: 16px; /* Optional padding */
+}
+
+.records-list {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Additional styling for the timeline cards can go here */

@@ -1,0 +1,18 @@
+[
+    {
+        "timestamp" : "2024-07-01T20:05:00",
+        "timezone" : 1
+    },
+    {
+        "timestamp" : "2024-07-02T21:00:00",
+        "timezone" : 2
+    },
+    {
+        "timestamp" : "2024-07-11T18:50:00",
+        "timezone" : 1
+    },
+    {
+        "timestamp" : "2024-07-13T15:45:00",
+        "timezone" : 0
+    }
+]

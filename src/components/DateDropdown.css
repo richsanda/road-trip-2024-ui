@@ -1,0 +1,6 @@
+.custom-dropdown-menu {
+    max-height: 200px; /* Adjust based on your design */
+    overflow-y: auto; /* Enables vertical scrolling */
+    position: absolute; /* Ensures dropdown is positioned relative to the toggle */
+    z-index: 1000; /* Ensures it appears above other content */
+}

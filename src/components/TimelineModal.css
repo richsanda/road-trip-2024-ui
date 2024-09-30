@@ -1,0 +1,70 @@
+.popup-dialog {
+    width: auto;
+    max-width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-height {
+    height: 90vh;
+    max-height: 90vh; /* Modal fits 80% of the viewport height */
+}
+
+.popup-image {
+    max-height: 75vh; /* Image takes up 75% of viewport height */
+    width: auto; /* Adjusts the width proportionally */
+    height: auto; /* Ensures the image maintains its aspect ratio */
+    display: block; /* Ensures the image is treated as a block element */
+    margin: 0 auto; /* Centers the image horizontally */
+}
+
+.modal-title {
+    font-size: medium;
+    padding-left: 20px;
+}
+
+
+
+
+
+/* Positioning modal arrows */
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 2.5rem;
+    color: black;
+    cursor: pointer;
+    z-index: 10;
+    padding: 10px;
+}
+
+.carousel-control-prev {
+    left: 10px;  /* Position to the left */
+}
+
+.carousel-control-next {
+    right: 10px; /* Position to the right */
+}
+
+/* Disable arrow buttons when they are at the boundaries */
+.carousel-control-prev:disabled,
+.carousel-control-next:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.popup-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    color: black;  /* Keep the arrow color black on hover */
+    background: none; /* Ensure the background doesn't change */
+}
