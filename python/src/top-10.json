@@ -1,0 +1,726 @@
+[
+  {
+    "text": "avalanche lake",
+    "category": "adventures/nature"
+  },
+  {
+    "text": "pictured rocks / chapel rock / chapel falls",
+    "category": "adventures/nature"
+  },
+  {
+    "text": "guided tour of dinosaurs",
+    "category": "adventures/nature"
+  },
+  {
+    "text": "beaver creek hike to the falls",
+    "category": "adventures/nature"
+  },
+  {
+    "text": "alberta badlands hike",
+    "category": "adventures/nature"
+  },
+  {
+    "text": "dig site",
+    "category": "adventures/nature"
+  },
+  {
+    "text": "creek behind camp in beaver creek park",
+    "category": "adventures/nature"
+  },
+  {
+    "text": "niagra falls",
+    "category": "adventures/nature"
+  },
+  {
+    "text": "pullout to creek in glacier",
+    "category": "adventures/nature"
+  },
+  {
+    "text": "devil's tower",
+    "category": "adventures/nature"
+  },
+  {
+    "text": "lake michigan / the moth",
+    "category": "adventures/nature"
+  },
+  {
+    "text": "rock n roll hall of fame",
+    "category": "adventures/municipal"
+  },
+  {
+    "text": "fort benton visitors center / bowling",
+    "category": "adventures/municipal"
+  },
+  {
+    "text": "dinosaur provincial park visitors center / theatrical production",
+    "category": "adventures/municipal"
+  },
+  {
+    "text": "royal tyrell museum",
+    "category": "adventures/municipal"
+  },
+  {
+    "text": "montana dinosaur center",
+    "category": "adventures/municipal"
+  },
+  {
+    "text": "dino museum in malta",
+    "category": "adventures/municipal"
+  },
+  {
+    "text": "library / esplanade medicine hat",
+    "category": "adventures/municipal"
+  },
+  {
+    "text": "hot springs / evan's plunge",
+    "category": "adventures/municipal"
+  },
+  {
+    "text": "grant park / white sox game",
+    "category": "adventures/municipal"
+  },
+  {
+    "text": "bunkhouse brewing",
+    "category": "adventures/municipal"
+  },
+  {
+    "text": "the elevated walkways",
+    "category": "adventures/municipal"
+  },
+  {
+    "text": "geographic center",
+    "category": "adventures/municipal"
+  },
+  {
+    "text": "whitefish chamber of commerce",
+    "category": "adventures/municipal"
+  },
+  {
+    "text": "last chance gulch",
+    "category": "adventures/municipal"
+  },
+  {
+    "text": "oil change",
+    "category": "adventures/municipal"
+  },
+  {
+    "text": "going to the sun road",
+    "category": "adventures/driving"
+  },
+  {
+    "text": "panning over helena",
+    "category": "adventures/driving"
+  },
+  {
+    "text": "willow creek crossing",
+    "category": "adventures/driving"
+  },
+  {
+    "text": "flathead lake",
+    "category": "adventures/driving"
+  },
+  {
+    "text": "entering montana",
+    "category": "adventures/driving"
+  },
+  {
+    "text": "the hiline",
+    "category": "adventures/driving"
+  },
+  {
+    "text": "mackinack bridge",
+    "category": "adventures/driving"
+  },
+  {
+    "text": "crossing the upper peninsula on dirt roads",
+    "category": "adventures/driving"
+  },
+  {
+    "text": "northbound in michigan",
+    "category": "adventures/driving"
+  },
+  {
+    "text": "entering duluth",
+    "category": "adventures/driving"
+  },
+  {
+    "text": "those light green fields",
+    "category": "adventures/driving"
+  },
+  {
+    "text": "calgary to st marys",
+    "category": "adventures/driving"
+  },
+  {
+    "text": "iron horse saloon",
+    "category": "meals"
+  },
+  {
+    "text": "agave and rye",
+    "category": "meals"
+  },
+  {
+    "text": "calgary (cactus club)",
+    "category": "meals"
+  },
+  {
+    "text": "andrews on the corner",
+    "category": "meals"
+  },
+  {
+    "text": "cretacious cafe (poutine, then side of gravy)",
+    "category": "meals"
+  },
+  {
+    "text": "tamarack",
+    "category": "meals"
+  },
+  {
+    "text": "mudman burger",
+    "category": "meals"
+  },
+  {
+    "text": "tracy's",
+    "category": "meals"
+  },
+  {
+    "text": "south troy diner",
+    "category": "meals"
+  },
+  {
+    "text": "trattoria fresco",
+    "category": "meals"
+  },
+  {
+    "text": "lobsters !",
+    "category": "meals"
+  },
+  {
+    "text": "buffalo wild wings",
+    "category": "meals"
+  },
+  {
+    "text": "smoked fish",
+    "category": "meals"
+  },
+  {
+    "text": "little caesars",
+    "category": "meals"
+  },
+  {
+    "text": "papa ginos",
+    "category": "meals"
+  },
+  {
+    "text": "sainato's",
+    "category": "meals"
+  },
+  {
+    "text": "mcdonalds",
+    "category": "meals"
+  },
+  {
+    "text": "fries at a&w",
+    "category": "meals"
+  },
+  {
+    "text": "panera in rapid city",
+    "category": "meals"
+  },
+  {
+    "text": "birthday mcdonalds",
+    "category": "meals"
+  },
+  {
+    "text": "butterhorn",
+    "category": "treats"
+  },
+  {
+    "text": "pastries in kalispell (glazed cinnamon roll / peanut butter cookie)",
+    "category": "treats"
+  },
+  {
+    "text": "famous doughnuts",
+    "category": "treats"
+  },
+  {
+    "text": "ice cream in the flats",
+    "category": "treats"
+  },
+  {
+    "text": "dino sized ice cream",
+    "category": "treats"
+  },
+  {
+    "text": "dessert in niagra (sweet jesus) churro bites, bounty killah",
+    "category": "treats"
+  },
+  {
+    "text": "ice cream in the gulch (big dipper)",
+    "category": "treats"
+  },
+  {
+    "text": "dq in mi",
+    "category": "treats"
+  },
+  {
+    "text": "devils lake ice cream",
+    "category": "treats"
+  },
+  {
+    "text": "shake in stewarts",
+    "category": "treats"
+  },
+  {
+    "text": "smores",
+    "category": "treats"
+  },
+  {
+    "text": "reese's minis",
+    "category": "treats"
+  },
+  {
+    "text": "1919 root beer",
+    "category": "treats"
+  },
+  {
+    "text": "diet pepsi / airhead extremes / takis",
+    "category": "treats"
+  },
+  {
+    "text": "himalayan salt chips / gummy cola bottles",
+    "category": "treats"
+  },
+  {
+    "text": "trolli",
+    "category": "treats"
+  },
+  {
+    "text": "reeses stick kings (sd)",
+    "category": "treats"
+  },
+  {
+    "text": "the retreat",
+    "category": "accommodations"
+  },
+  {
+    "text": "rob's",
+    "category": "accommodations"
+  },
+  {
+    "text": "greg's",
+    "category": "accommodations"
+  },
+  {
+    "text": "dinosaur provincial park",
+    "category": "accommodations"
+  },
+  {
+    "text": "glacier campground",
+    "category": "accommodations"
+  },
+  {
+    "text": "21st floor",
+    "category": "accommodations"
+  },
+  {
+    "text": "beaver creek campground",
+    "category": "accommodations"
+  },
+  {
+    "text": "duluth, mn",
+    "category": "accommodations"
+  },
+  {
+    "text": "sidney, mt",
+    "category": "accommodations"
+  },
+  {
+    "text": "ann arbor, mi",
+    "category": "accommodations"
+  },
+  {
+    "text": "great falls, mt",
+    "category": "accommodations"
+  },
+  {
+    "text": "bettendorf, ia",
+    "category": "accommodations"
+  },
+  {
+    "text": "ann arbor, mi",
+    "category": "accommodations"
+  },
+  {
+    "text": "bilings, mt",
+    "category": "accommodations"
+  },
+  {
+    "text": "burn",
+    "category": "songs"
+  },
+  {
+    "text": "complicit",
+    "category": "songs"
+  },
+  {
+    "text": "dirty work",
+    "category": "songs"
+  },
+  {
+    "text": "kitchen witch",
+    "category": "songs"
+  },
+  {
+    "text": "teeth marks",
+    "category": "songs"
+  },
+  {
+    "text": "swimming away",
+    "category": "songs"
+  },
+  {
+    "text": "farewell transmission",
+    "category": "songs"
+  },
+  {
+    "text": "free man in paris",
+    "category": "songs"
+  },
+  {
+    "text": "oscar winning tears",
+    "category": "songs"
+  },
+  {
+    "text": "if today was your last day",
+    "category": "songs"
+  },
+  {
+    "text": "finale",
+    "category": "songs"
+  },
+  {
+    "text": "everybody wants to rule the world",
+    "category": "songs"
+  },
+  {
+    "text": "EMO!!",
+    "category": "songs"
+  },
+  {
+    "text": "secret oktober",
+    "category": "songs"
+  },
+  {
+    "text": "the weather station",
+    "category": "artists"
+  },
+  {
+    "text": "indigo sparke",
+    "category": "artists"
+  },
+  {
+    "text": "steely dan",
+    "category": "artists"
+  },
+  {
+    "text": "RAYE",
+    "category": "artists"
+  },
+  {
+    "text": "s.g. goodman",
+    "category": "artists"
+  },
+  {
+    "text": "kacy & clayton",
+    "category": "artists"
+  },
+  {
+    "text": "naked eyes",
+    "category": "artists"
+  },
+  {
+    "text": "MARINA",
+    "category": "artists"
+  },
+  {
+    "text": "penolope",
+    "category": "artists"
+  },
+  {
+    "text": "bo birnham",
+    "category": "artists"
+  },
+  {
+    "text": "bear",
+    "category": "wildlife"
+  },
+  {
+    "text": "pronghorn",
+    "category": "wildlife"
+  },
+  {
+    "text": "magpie",
+    "category": "wildlife"
+  },
+  {
+    "text": "ram / mountain goat",
+    "category": "wildlife"
+  },
+  {
+    "text": "deer / w/wo antlers",
+    "category": "wildlife"
+  },
+  {
+    "text": "bald eagle",
+    "category": "wildlife"
+  },
+  {
+    "text": "horse",
+    "category": "wildlife"
+  },
+  {
+    "text": "cow",
+    "category": "wildlife"
+  },
+  {
+    "text": "sheep / goat",
+    "category": "wildlife"
+  },
+  {
+    "text": "prairie dog",
+    "category": "wildlife"
+  },
+  {
+    "text": "vulture",
+    "category": "wildlife"
+  },
+  {
+    "text": "chipmunk",
+    "category": "wildlife"
+  },
+  {
+    "text": "bunny",
+    "category": "wildlife"
+  },
+  {
+    "text": "bison",
+    "category": "wildlife"
+  },
+  {
+    "text": "geese",
+    "category": "wildlife"
+  },
+  {
+    "text": "hawk",
+    "category": "wildlife"
+  },
+  {
+    "text": "bull",
+    "category": "wildlife"
+  },
+  {
+    "text": "sid's playlist",
+    "category": "narrative/music"
+  },
+  {
+    "text": "spotify blend",
+    "category": "narrative/music"
+  },
+  {
+    "text": "headphones",
+    "category": "narrative/music"
+  },
+  {
+    "text": "r+r initial impressions",
+    "category": "narrative/music"
+  },
+  {
+    "text": "r+r voting",
+    "category": "narrative/music"
+  },
+  {
+    "text": "r+r induction highlights",
+    "category": "narrative/music"
+  },
+  {
+    "text": "spotify -> satellite",
+    "category": "narrative/music"
+  },
+  {
+    "text": "preparing for canada",
+    "category": "narrative/music"
+  },
+  {
+    "text": "satellite -> spotify",
+    "category": "narrative/music"
+  },
+  {
+    "text": "the realization",
+    "category": "narrative/roadtrip"
+  },
+  {
+    "text": "the plan",
+    "category": "narrative/roadtrip"
+  },
+  {
+    "text": "contemplating this road trip",
+    "category": "narrative/roadtrip"
+  },
+  {
+    "text": "culbertson",
+    "category": "narrative/roadtrip"
+  },
+  {
+    "text": "leaving pictured rocks",
+    "category": "narrative/roadtrip"
+  },
+  {
+    "text": "rushing in the black hills",
+    "category": "narrative/roadtrip"
+  },
+  {
+    "text": "manory's / south troy diner",
+    "category": "narrative/roadtrip"
+  },
+  {
+    "text": "havre as a focal point",
+    "category": "narrative/roadtrip"
+  },
+  {
+    "text": "great falls another way",
+    "category": "narrative/roadtrip"
+  },
+  {
+    "text": "by way of missoula",
+    "category": "narrative/roadtrip"
+  },
+  {
+    "text": "dino notebook",
+    "category": "souvenirs"
+  },
+  {
+    "text": "havre tshirts",
+    "category": "souvenirs"
+  },
+  {
+    "text": "camo hat / purple coffee travel cup",
+    "category": "souvenirs"
+  },
+  {
+    "text": "montana tshirt w/fish and cowboy hat",
+    "category": "souvenirs"
+  },
+  {
+    "text": "niagra sweatshirt",
+    "category": "souvenirs"
+  },
+  {
+    "text": "albertasaurus shirt / velociraptor / claw",
+    "category": "souvenirs"
+  },
+  {
+    "text": "mama and annie's sweatshirts, huckleberry bar, glacier bag",
+    "category": "souvenirs"
+  },
+  {
+    "text": "montana flower tshirt",
+    "category": "souvenirs"
+  },
+  {
+    "text": "cousies",
+    "category": "souvenirs"
+  },
+  {
+    "text": "white sox shirt",
+    "category": "souvenirs"
+  },
+  {
+    "text": "deadwood",
+    "category": "municipalities/driving"
+  },
+  {
+    "text": "grand forks",
+    "category": "municipalities/driving"
+  },
+  {
+    "text": "pierre, sd",
+    "category": "municipalities/driving"
+  },
+  {
+    "text": "schenectady",
+    "category": "municipalities/driving"
+  },
+  {
+    "text": "london, on",
+    "category": "municipalities/driving"
+  },
+  {
+    "text": "hanna, ab",
+    "category": "municipalities/driving"
+  },
+  {
+    "text": "choteau, mt",
+    "category": "municipalities/driving"
+  },
+  {
+    "text": "minot, nd",
+    "category": "municipalities/driving"
+  },
+  {
+    "text": "glasgow",
+    "category": "municipalities/driving"
+  },
+  {
+    "text": "detroit mi",
+    "category": "municipalities/driving"
+  },
+  {
+    "text": "cleveland, oh",
+    "category": "municipalities/ground"
+  },
+  {
+    "text": "havre, mt",
+    "category": "municipalities/ground"
+  },
+  {
+    "text": "great falls, mt",
+    "category": "municipalities/ground"
+  },
+  {
+    "text": "medicine hat, ab",
+    "category": "municipalities/ground"
+  },
+  {
+    "text": "chicago, il",
+    "category": "municipalities/ground"
+  },
+  {
+    "text": "sioux city, ia",
+    "category": "municipalities/ground"
+  },
+  {
+    "text": "fort benton, mt",
+    "category": "municipalities/ground"
+  },
+  {
+    "text": "calgary, ab",
+    "category": "municipalities/ground"
+  },
+  {
+    "text": "detroit, mi",
+    "category": "municipalities/ground"
+  },
+  {
+    "text": "missoula, mt",
+    "category": "municipalities/ground"
+  },
+  {
+    "text": "whitefish, mt",
+    "category": "municipalities/ground"
+  },
+  {
+    "text": "helena, mt",
+    "category": "municipalities/ground"
+  }
+]

@@ -1,0 +1,208 @@
+adventures/nature
+  avalanche lake
+  pictured rocks / chapel rock / chapel falls
+  guided tour of dinosaurs
+  beaver creek hike to the falls
+  alberta badlands hike
+  dig site
+  creek behind camp in beaver creek park
+  niagra falls
+  pullout to creek in glacier
+  devil's tower
+  lake michigan / the moth
+
+adventures/municipal
+  rock n roll hall of fame
+  fort benton visitors center / bowling
+  dinosaur provincial park visitors center / theatrical production
+  royal tyrell museum
+  montana dinosaur center
+  dino museum in malta
+  library / esplanade medicine hat
+  hot springs / evan's plunge
+  grant park / white sox game
+  bunkhouse brewing
+  the elevated walkways
+  geographic center
+  whitefish chamber of commerce
+  last chance gulch
+  oil change
+
+adventures/driving
+  going to the sun road
+  panning over helena
+  willow creek crossing
+  flathead lake
+  entering montana
+  the hiline
+  mackinack bridge
+  crossing the upper peninsula on dirt roads
+  northbound in michigan
+  entering duluth
+  those light green fields
+  calgary to st marys
+
+meals
+  iron horse saloon
+  agave and rye
+  calgary (cactus club)
+  andrews on the corner
+  cretacious cafe (poutine, then side of gravy)
+  tamarack
+  mudman burger
+  tracy's
+  south troy diner
+  trattoria fresco
+  lobsters !
+  buffalo wild wings
+  smoked fish
+  little caesars
+  papa ginos
+  sainato's
+  mcdonalds
+  fries at a&w
+  panera in rapid city
+  birthday mcdonalds
+
+treats
+  butterhorn
+  pastries in kalispell (glazed cinnamon roll / peanut butter cookie)
+  famous doughnuts
+  ice cream in the flats
+  dino sized ice cream
+  dessert in niagra (sweet jesus) churro bites, bounty killah
+  ice cream in the gulch (big dipper)
+  dq in mi
+  devils lake ice cream
+  shake in stewarts
+  smores
+  reese's minis
+  1919 root beer
+  diet pepsi / airhead extremes / takis
+  himalayan salt chips / gummy cola bottles
+  trolli
+  reeses stick kings (sd)
+
+accommodations
+  the retreat
+  rob's
+  greg's
+  dinosaur provincial park
+  glacier campground
+  21st floor
+  beaver creek campground
+  duluth, mn
+  sidney, mt
+  ann arbor, mi
+  great falls, mt
+  bettendorf, ia
+  ann arbor, mi
+  bilings, mt
+
+songs
+  burn
+  complicit
+  dirty work
+  kitchen witch
+  teeth marks
+  swimming away
+  farewell transmission
+  free man in paris
+  oscar winning tears
+  if today was your last day
+  finale
+  everybody wants to rule the world
+  EMO!!
+  secret oktober
+
+artists
+  the weather station
+  indigo sparke
+  steely dan
+  RAYE
+  s.g. goodman
+  kacy & clayton
+  naked eyes
+  MARINA
+  penolope
+  bo birnham
+
+wildlife
+  bear
+  pronghorn
+  magpie
+  ram / mountain goat
+  deer / w/wo antlers
+  bald eagle
+  horse
+  cow
+  sheep / goat
+  prairie dog
+  vulture
+  chipmunk
+  bunny
+  bison
+  geese
+  hawk
+  bull
+
+narrative/music
+  sid's playlist
+  spotify blend
+  headphones
+  r+r initial impressions
+  r+r voting
+  r+r induction highlights
+  spotify -> satellite
+  preparing for canada
+  satellite -> spotify
+
+narrative/roadtrip
+  the realization
+  the plan
+  contemplating this road trip
+  culbertson
+  leaving pictured rocks
+  rushing in the black hills
+  manory's / south troy diner
+  havre as a focal point
+  great falls another way
+  by way of missoula
+
+souvenirs
+  dino notebook
+  havre tshirts
+  camo hat / purple coffee travel cup
+  montana tshirt w/fish and cowboy hat
+  niagra sweatshirt
+  albertasaurus shirt / velociraptor / claw
+  mama and annie's sweatshirts, huckleberry bar, glacier bag
+  montana flower tshirt
+  cousies
+  white sox shirt
+
+municipalities/driving
+  deadwood
+  grand forks
+  pierre, sd
+  schenectady
+  london, on
+  hanna, ab
+  choteau, mt
+  minot, nd
+  glasgow
+  detroit mi
+
+municipalities/ground
+  cleveland, oh
+  havre, mt
+  great falls, mt
+  medicine hat, ab
+  chicago, il
+  sioux city, ia
+  fort benton, mt
+  calgary, ab
+  detroit, mi
+  missoula, mt
+  whitefish, mt
+  helena, mt

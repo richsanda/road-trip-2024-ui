@@ -1,6 +1,96 @@
+import { format } from "date-fns";
+
+const apiUrl = process.env.REACT_APP_API_URL;
+
+export async function fetchPictures(date) {
+    try {
+        const formattedDate = format(date, 'yyyy-MM-dd');
+        const response = await fetch(`${apiUrl}/pictures?start=${formattedDate}T00:00:00&end=${formattedDate}T23:59:00`);
+        if (!response.ok) {
+            throw new Error('Failed to fetch');
+        }
+        const data = await response.json();
+        return data;
+    } catch (error) {
+        console.error('Error fetching records:', error);
+    }
+};
+
+export async function fetchShazams() {
+    try {
+        const response = await fetch(`${apiUrl}/shazams`);
+        if (!response.ok) {
+            throw new Error('Failed to fetch');
+        }
+        const data = await response.json();
+        return data;
+    } catch (error) {
+        console.error('Error fetching records:', error);
+    }
+};
+
+export async function fetchSongs() {
+    try {
+        const response = await fetch(`${apiUrl}/songs`);
+        if (!response.ok) {
+            throw new Error('Failed to fetch');
+        }
+        const data = await response.json();
+        return data;
+    } catch (error) {
+        console.error('Error fetching records:', error);
+    }
+};
+
+export async function fetchMessages() {
+    try {
+        const response = await fetch(`${apiUrl}/messages`, {
+            method: 'GET',
+            cache: 'no-store' // Ensure no caching
+        });
+        if (!response.ok) {
+            throw new Error('Failed to fetch');
+        }
+        const data = await response.json();
+        return data;
+    } catch (error) {
+        console.error('Error fetching records:', error);
+    }
+};
+
+export async function fetchTimeline(date) {
+    try {
+        const formattedDate = format(date, 'yyyy-MM-dd');
+        const response = await fetch(`${apiUrl}/timeline?start=${formattedDate}T00:00:00&end=${formattedDate}T23:59:00`);
+        if (!response.ok) {
+            throw new Error('Failed to fetch');
+        }
+        const data = await response.json();
+        return data;
+    } catch (error) {
+        console.error('Error fetching records:', error);
+    }
+};
+
+export async function fetchStories() {
+    try {
+        const response = await fetch(`${apiUrl}/stories`, {
+            method: 'GET',
+            cache: 'no-store' // Ensure no caching
+        });
+        if (!response.ok) {
+            throw new Error('Failed to fetch');
+        }
+        const data = await response.json();
+        return data;
+    } catch (error) {
+        console.error('Error fetching records:', error);
+    }
+};
+
 export async function updateMapTimestamp(id, timestamp) {
     try {
-        const response = await fetch('http://localhost:5000/maps/update', {
+        const response = await fetch(`${apiUrl}/maps/update`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -26,7 +116,7 @@ export async function updateMapTimestamp(id, timestamp) {
 
 export async function updateMapHide(id, hide) {
     try {
-        const response = await fetch('http://localhost:5000/maps/update', {
+        const response = await fetch(`${apiUrl}/maps/update`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -34,6 +124,33 @@ export async function updateMapHide(id, hide) {
             body: JSON.stringify({
                 id: id,
                 hide: hide,
+            }),
+        });
+
+        if (!response.ok) {
+            const errorData = await response.json();
+            throw new Error(errorData.error || 'Unknown error occurred');
+        }
+
+        console.log('Hide updated successfully');
+        return true; // Indicate success
+    } catch (error) {
+        console.error('Error updating hide:', error);
+        return false; // Indicate failure
+    }
+}
+
+export async function updateTimelineKeep(type, type_id, keep) {
+    try {
+        const response = await fetch(`${apiUrl}/timeline/update`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                type: type,
+                type_id: type_id,
+                keep: keep
             }),
         });
 
@@ -64,7 +181,7 @@ export async function updateStory(id, date, text) {
     );
 
     try {
-        const response = await fetch('http://localhost:5000/stories', {
+        const response = await fetch(`${apiUrl}/stories`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -84,4 +201,3 @@ export async function updateStory(id, date, text) {
         return false; // Indicate failure
     }
 }
-

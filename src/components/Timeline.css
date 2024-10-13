@@ -7,21 +7,27 @@
 
 .header-container {
   display: flex;
-  align-items: center; /* Center items vertically */
-  margin-bottom: 16px; /* Space below header */
-  padding: 16px; /* Optional padding for aesthetics */
-  background-color: white; /* Ensure header stands out */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for separation */
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .date-grid-container {
-  margin-left: 16px; /* Space between header and calendar */
+  flex-shrink: 0;
+  margin-right: 20px; /* Optional, adjust for desired spacing */
+}
+
+h2 {
+  flex-grow: 1;
+  text-align: center;
 }
 
 .records-list-container {
   flex: 1; /* Take up remaining space */
   overflow-y: auto; /* Enable scrolling */
-  padding: 16px; /* Optional padding */
+  padding: 4px; /* Optional padding */
 }
 
 .records-list {

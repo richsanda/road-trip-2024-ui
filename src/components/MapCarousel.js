@@ -7,12 +7,15 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { updateMapHide } from '../api';
 
+const apiUrl = process.env.REACT_APP_API_URL;
+const imageUrl = process.env.REACT_APP_IMAGES_URL
+
 function MapCarousel() {
     const [maps, setMaps] = useState([]);
 
     const fetchMaps = async () => {
         try {
-            const response = await fetch('http://localhost:5000/maps');
+            const response = await fetch(`${apiUrl}/maps`);
             if (!response.ok) {
                 throw new Error('Failed to fetch maps');
             }
@@ -74,7 +77,7 @@ function MapCarousel() {
                     return (
                         <div key={map.id} className="carousel-slide">
                             <div className="carousel-content">
-                                <img src={map.img_location} alt={`Map from ${map.start_place} to ${map.end_place}`} className="carousel-image" />
+                                <img src={imageUrl + "/" + map.img_location} alt={`Map from ${map.start_place} to ${map.end_place}`} className="carousel-image" />
                                 <div>
                                     <p style={{'display': 'flex', 'alignItems':'center','gap':'10px'}}>
                                         <strong>Date:</strong> 

@@ -1,0 +1,14 @@
+{
+  "formatted_address": "Hancock Tower, 200 Clarendon St, Suite 400, Boston, MA 02116, USA",
+  "address": {
+    "business_name": "Hancock Tower",
+    "street": {
+      "line1": "200 Clarendon St",
+      "line2": "Suite 400"
+    },
+    "city": "Boston",
+    "state": "MA",
+    "postal_code": "02116",
+    "country": "USA"
+  }
+}

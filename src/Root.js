@@ -12,6 +12,7 @@ import SongCard from './components/SongCard';
 import MessageCard from './components/MessageCard';
 import TimelineCard from './components/TimelineCard';
 import StoryCard from './components/StoryCard';
+import { fetchMessages, fetchShazams, fetchSongs, fetchStories, fetchTimeline, fetchPictures } from './api';
 
 function Root() {
   const [pictures, setPictures] = useState([]);
@@ -23,113 +24,19 @@ function Root() {
   const [selectedPicture, setSelectedPicture] = useState(null);
 
   const handleDateSelect = (date) => {
-    fetchPictures(date);
+    fetchPictures(date).then(response => setPictures(response));
   };
 
   const handleTimelineDateSelect = (date) => {
-    fetchTimeline(date);
+    fetchTimeline(date).then(response => setTimeline(response));
   };
-
-  const fetchPictures = async (date) => {
-    try {
-      const formattedDate = format(date, 'yyyy-MM-dd');
-      const response = await fetch(`http://localhost:5000/pictures?start=${formattedDate}T00:00:00&end=${formattedDate}T23:59:00`);
-      if (!response.ok) {
-        throw new Error('Failed to fetch');
-      }
-      const data = await response.json();
-      setPictures(data);
-    } catch (error) {
-      console.error('Error fetching records:', error);
-    }
-  };
-
-  const fetchShazams = async () => {
-    try {
-      const response = await fetch(`http://localhost:5000/shazams`);
-      if (!response.ok) {
-        throw new Error('Failed to fetch');
-      }
-      const data = await response.json();
-      setShazams(data);
-    } catch (error) {
-      console.error('Error fetching records:', error);
-    }
-  };
-
-  const fetchSongs = async () => {
-    try {
-      const response = await fetch(`http://localhost:5000/songs`);
-      if (!response.ok) {
-        throw new Error('Failed to fetch');
-      }
-      const data = await response.json();
-      setSongs(data);
-    } catch (error) {
-      console.error('Error fetching records:', error);
-    }
-  };
-
-  const fetchMessages = async () => {
-    try {
-      const response = await fetch('http://localhost:5000/messages', {
-        method: 'GET',
-        cache: 'no-store' // Ensure no caching
-      });
-      if (!response.ok) {
-        throw new Error('Failed to fetch');
-      }
-      const data = await response.json();
-      setMessages(data);
-    } catch (error) {
-      console.error('Error fetching records:', error);
-    }
-  };
-
-  const fetchTimeline = async (date) => {
-    try {
-      const formattedDate = format(date, 'yyyy-MM-dd');
-      const response = await fetch(`http://localhost:5000/timeline?start=${formattedDate}T00:00:00&end=${formattedDate}T23:59:00`);
-      if (!response.ok) {
-        throw new Error('Failed to fetch');
-      }
-      const data = await response.json();
-      setTimeline(data);
-    } catch (error) {
-      console.error('Error fetching records:', error);
-    }
-  };
-
-  const fetchStories = async () => {
-    try {
-      const response = await fetch('http://localhost:5000/stories', {
-        method: 'GET',
-        cache: 'no-store' // Ensure no caching
-      });
-      if (!response.ok) {
-        throw new Error('Failed to fetch');
-      }
-      const data = await response.json();
-      setStories(data);
-    } catch (error) {
-      console.error('Error fetching records:', error);
-    }
-  };
-
-  useEffect(() => {
-    // fetchShazams();
-    // fetchSongs();
-    // fetchMessages();
-    // fetchTimeline();
-    // fetchStories();
-  }, []);
 
   const fetchMethods = {
-    stories: fetchStories,
-    songs: fetchSongs,
-    messages: fetchMessages,
-    timeline: fetchTimeline,
-    shazams: fetchShazams
+    stories: () => fetchStories().then(response => setStories(response)),
+    songs: () => fetchSongs().then(response => setSongs(response)),
+    messages: () => fetchMessages().then(response => setMessages(response)),
+    timeline: () => fetchTimeline().then(response => setTimeline(response)),
+    shazams: () => fetchShazams().then(response => setShazams(response))
   };
 
 

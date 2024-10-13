@@ -1,3 +1,5 @@
+const imagesUrl = process.env.REACT_APP_IMAGES_URL;
+
 export const formatISODateTime = (isoDateTime) => {
     const date = new Date(isoDateTime);
 
@@ -11,11 +13,16 @@ export const formatISODateTime = (isoDateTime) => {
 
     // Remove leading zero from day
     const day = date.getDate();
-    const month = date.toLocaleString('en-US', { month: 'short' });
+    const month = date.toLocaleString('en-US', { month: 'short' }).toLowerCase();
     formattedTime = formattedTime.replace(' ', '').replace('M', '').toLowerCase(); // Remove space and convert to lowercase
 
-    // Combine formatted date and time
-    return `${month} ${day}, ${formattedTime}`;
+    return (
+        <>
+            <span style={{color: 'darkbrown', fontWeight: 'normal'}} className="date-part">{day} {month}</span>
+            &nbsp;&nbsp;
+            <span style={{color: 'darkbrown', fontWeight: 'bold'}} className="time-part">{formattedTime}</span>
+        </>
+    );
 };
 
 export const formatTime = (time) => {
@@ -66,11 +73,13 @@ export function storyBody(text) {
 
 export function getImageUrl(record) {
     if (record.type === 'map') {
-        return `http://localhost:8001/${record.filename}.jpg`;
+        return `${imagesUrl}/maps/${record.filename}.jpg`;
     } else if (record.type === 'receipt') {
-        return `http://localhost:8002/${record.filename}.jpg`;
+        return `${imagesUrl}/receipts/${record.filename}.jpg`;
     } else if (record.type === 'picture') {
-        return `http://localhost:8000/${record.filename}.jpg`;
+        return `${imagesUrl}/pictures/${record.filename}.jpg`;
+    } else if (record.type === 'shazam') {
+        return record.filename
     }
     return null; // Return null if neither 'receipt' nor 'map'
 }

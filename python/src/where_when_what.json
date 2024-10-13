@@ -1,0 +1,32 @@
+{
+  "where": {
+    "formatted_address": "Four Seasons Hotel Boston, 200 Boylston St, Boston, MA 02116, USA",
+    "address": {
+      "business_name": "Four Seasons Hotel Boston",
+      "street": {
+        "line1": "200 Boylston St",
+        "line2": null
+      },
+      "city": "Boston",
+      "state": "MA",
+      "postal_code": "02116",
+      "country": "USA"
+    }
+  },
+  "when": {
+    "timestamp": "2024-08-15T15:00:00Z",
+    "end_timestamp": "2024-08-17T11:00:00Z"
+  },
+  "what": {
+    "hotel_name": "Four Seasons Hotel Boston",
+    "location": "200 Boylston St, Boston, MA 02116, USA",
+    "check_in_time": "2024-08-15 15:00",
+    "check_out_time": "2024-08-17 11:00",
+    "room": {
+      "type": "Deluxe King Room",
+      "rate": "450.00",
+      "currency": "USD"
+    },
+    "reservation_id": "ABC123456"
+  }
+}

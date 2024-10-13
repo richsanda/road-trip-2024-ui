@@ -5,7 +5,7 @@
     gap: 20px; /* Space between text and image */
     padding: 1rem;
     position: relative;
-    width: calc(100% - 20px); /* Full width minus padding */
+    width: calc(100% - 2px); /* Full width minus padding */
     box-sizing: border-box; /* Include padding and border in width calculation */
     border: 1px solid #ccc; /* Optional border */
     border-radius: 8px; /* Rounded corners */

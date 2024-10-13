@@ -3,6 +3,8 @@ import { Card as BootstrapCard } from 'react-bootstrap';
 import { formatISODateTime } from '../utilities';
 import './PictureCard.css'; // Import the CSS file
 
+const imageUrl = process.env.REACT_APP_IMAGES_URL
+
 function PictureCard({ record, onClick }) {
     return (
         <BootstrapCard 
@@ -19,7 +21,7 @@ function PictureCard({ record, onClick }) {
             {record.img_location && (
                 <BootstrapCard.Img 
                     variant="top" 
-                    src={record.img_location} 
+                    src={imageUrl + "/" + record.img_location} 
                     alt="Record" 
                     style={{
                         height: '50vh', // Image height is 80% of the viewport height

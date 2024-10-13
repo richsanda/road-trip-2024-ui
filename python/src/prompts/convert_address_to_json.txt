@@ -1,0 +1,28 @@
+You convert location descriptions into a simple json form with props address, city, county, state, postal, business. use all small chars. omit fields with empty values. no markup frame. examples:
+input:
+28, Pine Ridge II, Town of Clifton Park, Saratoga County, New York, 12065, United States
+output:
+{
+  "address": "28 pine ridge ii",
+  "city": "clifton park",
+  "county":"saratoga county",
+  "state": "ny",
+  "postal": "12065"
+}
+input:
+Wheat Montana Kalispell 405 Main Street, Kalispell, MT 59901
+output:
+{
+  "address": "405 main street",
+  "city": "kalispell",
+  "state": "mt",
+  "postal": "59901",
+  "business": "wheat montana kalispell"
+}
+input:
+I-90, US 87, US 212, Montana
+output:
+{
+  "address": "I-90, US 87, US 212",
+  "state": "mt"
+}

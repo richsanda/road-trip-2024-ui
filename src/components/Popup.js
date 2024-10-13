@@ -5,6 +5,8 @@ import { formatISODateTime, getDateFromISO } from '../utilities';
 import DateDropdown from './DateDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+const imageUrl = process.env.REACT_APP_IMAGES_URL
+
 function Popup({ record, show, handleClose }) {
 
     const handlePopupClick = (event) => {
@@ -25,7 +27,7 @@ function Popup({ record, show, handleClose }) {
             <Modal.Body>
                 {/* <DateDropdown defaultDate={getDateFromISO(record.timestamp)}/> */}
                 {record.img_location && <img 
-                    src={record.img_location} 
+                    src={imageUrl + "/" + record.img_location} 
                     alt="Record" 
                     className="popup-image"
             />}

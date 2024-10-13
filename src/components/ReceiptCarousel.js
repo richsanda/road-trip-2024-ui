@@ -6,12 +6,15 @@ import './ReceiptCarousel.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+const apiUrl = process.env.REACT_APP_API_URL;
+const imageUrl = process.env.REACT_APP_IMAGES_URL
+
 function ReceiptCarousel() {
     const [receipts, setReceipts] = useState([]);
 
     const fetchReceipts = async () => {
         try {
-            const response = await fetch('http://localhost:5000/receipts');
+            const response = await fetch(`${apiUrl}/receipts`);
             if (!response.ok) {
                 throw new Error('Failed to fetch maps');
             }
@@ -57,7 +60,7 @@ function ReceiptCarousel() {
                 {receipts.map(receipt => (
                     <div key={receipt.id} className="carousel-slide">
                         <div className="carousel-content">
-                            <img src={receipt.img_location} alt={`Receipt from ${receipt.place}`} className="carousel-image" />
+                            <img src={imageUrl + "/" + receipt.img_location} alt={`Receipt from ${receipt.place}`} className="carousel-image" />
                             <div>
                                 <p style={{ 'display': 'flex', 'alignItems': 'center', 'gap': '10px' }}>
                                     <strong>Date:</strong>
