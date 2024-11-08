@@ -2,8 +2,8 @@ import requests
 import base64
 
 # Your Spotify app credentials
-client_id = '164247bccf1d46738028b93aa7c21663'
-client_secret = '40706213de474bf386f87b50c52d09d4'
+client_id = 'id'
+client_secret = 'secret'
 
 # Encode the client_id and client_secret
 credentials = f"{client_id}:{client_secret}"
