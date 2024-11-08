@@ -1,0 +1,129 @@
+/* TimelineCard.css */
+
+/* Existing styles... */
+
+.card-content {
+    display: flex; /* Flex layout for image and text */
+    flex-direction: row; /* Arrange items in a row */
+    width: 100%; /* Full width */
+}
+
+/* Adjust text content styling */
+.card-text-content {
+    flex: 1; /* Allow text content to fill available space */
+    overflow: auto; /* Allow scrolling if content overflows */
+    max-height: 80vh; /* Limit height for scrolling */
+}
+
+/* Styles for text content for receipts and maps */
+.text-receipt-map {
+    flex: 1; /* Takes full width for text */
+}
+
+/* Styles for picture and story entries with image */
+.image-wide {
+    flex: 0 0 72%; /* Image takes 70% of the width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners for the image */
+    object-fit: contain; /* Maintain aspect ratio */
+}
+
+/* Normal image size for other types */
+.image-normal {
+    flex: 0 0 48%; /* Default width for images on other types */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Normal image size for other types */
+.image-narrow {
+    flex: 0 0 36%; /* Default width for images on other types */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* If no image is present, text should take full width */
+.card-img-placeholder {
+    display: none; /* Hide placeholder if no image */
+}
+
+/* Timeline.css */
+
+.timeline-layout {
+    display: flex;
+}
+
+.timeline-index {
+    width: 200px; /* Adjust this to control the width of the index */
+    margin-right: 20px; /* Space between index and content */
+    border-right: 1px solid #ddd;
+}
+
+.timeline-index ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.timeline-index li {
+    padding: 10px;
+    cursor: pointer;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.timeline-index li.active {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.timeline-content {
+    flex-grow: 1; /* Allows the content area to take up the remaining space */
+    max-width: 880px; /* Set a maximum width to control the card width */
+}
+
+.card {
+    margin-bottom: 8px;
+}
+
+.card-title {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.index-container {
+    position: sticky; /* or use fixed if you want it to stick in the exact spot */
+    top: 0; /* stays at the top of the viewport */
+    height: 100vh; /* full viewport height */
+    overflow-y: auto; /* allows for independent scrolling if needed */
+}
+
+.sign {
+    background-color: #f5f5dc; /* Light cream background */
+    border: 1px solid #4a4435; 
+    color: #3e2723; /* Very dark brown for the text */
+    padding: 8px; /* Adjusted padding */
+    border-radius: 8px; /* Optional: round the corners */
+    font-family: Arial, sans-serif; /* Set a neutral font */
+}
+
+.highway-sign {
+    border-radius: 8px; 
+    padding: 4px;
+    background-color: #49b853; 
+    color: #FFFFFF;
+    border: 2px solid #E5E5E5;
+}
+
+.dashboard {
+    border-radius: 8px; 
+    padding: 4px;
+    background-color: #7A7A7A; /* Mid-light gray for a more sunlit dashboard feel */
+    color: #F7F7F7; /* Soft, creamy white for gentle contrast */
+    border: 2px solid #969696; /* Light border to frame the card subtly */    
+}
+
+.button-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: flex-end; /* Align items to the right */
+    margin-left: 24px;
+}

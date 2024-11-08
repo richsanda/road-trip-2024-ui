@@ -1,6 +1,6 @@
 import os
 import shutil
-from src.data.connection import get_db_connection
+from connection import get_db_connection
 
 # Database and query setup
 query = """

@@ -2,7 +2,7 @@ import sqlite3
 import json
 
 # Connect to (or create) a SQLite3 database
-conn = sqlite3.connect('database.db')
+conn = sqlite3.connect('../database.db')
 cursor = conn.cursor()
 
 # Create the 'messages' table if it doesn't exist

@@ -1,0 +1,29 @@
+/* Ensure the draggable container has a display block */
+.droppable-container {
+    display: block;
+}
+
+/* Style the cards for better visuals */
+.draggable-card {
+    user-select: none;
+    padding: 16px;
+    margin: 8px 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+}
+
+/* Add visual feedback when dragging */
+.draggable-card.is-dragging {
+    background-color: #e0f7fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Placeholder for dragging area */
+.droppable-container > .drag-placeholder {
+    background-color: #eee;
+    height: 40px;
+    margin-bottom: 8px;
+    border: 2px dashed #ccc;
+}

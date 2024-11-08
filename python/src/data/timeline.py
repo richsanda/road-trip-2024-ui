@@ -1,5 +1,5 @@
-from src.data.connection import get_db_connection
-
+from connection import get_db_connection
+import json
 
 timeline_query = """
 SELECT id, type, timestamp, place, description, filename
@@ -42,6 +42,7 @@ SELECT
     t.timestamp, 
     t.place, 
     t.description, 
+    t.data,
     t.filename, 
     tn.keep,      -- Add keep field from timeline_notes
     tn.notes      -- Add notes field from timeline_notes
@@ -74,6 +75,11 @@ WHERE
     # Convert records to a list of dictionaries
     result = []
     for record in records:
+        try:
+            data = json.loads(record[6])
+        except:
+            data = None
+
         result.append({
             'id': record[0],
             'type': record[1],
@@ -81,9 +87,134 @@ WHERE
             'timestamp': record[3],
             'place': record[4],
             'description': record[5],
-            'filename': record[6],
-            'keep': bool(record[7]),
-            'notes': record[8]
+            'data': data,
+            'filename': record[7],
+            'keep': bool(record[8]),
+            'notes': record[9]
+        })
+
+    return result
+
+
+def fetch_timeline_with_notes_by_timestamp_range(start=None, end=None):
+    conn = get_db_connection()
+
+    where_clause = ""
+
+    # Add conditions based on the presence of start and end parameters
+    if start:
+        where_clause += " AND timestamp >= ?"
+    if end:
+        where_clause += " AND timestamp <= ?"
+
+    # Build the SQL query with optional WHERE clauses
+    query = f"""
+-- Query for timeline records
+SELECT 
+    t.id, 
+    t.type,              -- Keep original type
+    t.type_id, 
+    CASE 
+        WHEN n.date IS NOT NULL AND n.time IS NOT NULL THEN n.date || 'T' || n.time
+        WHEN n.date IS NOT NULL THEN n.date || 'T' || strftime('%H:%M:%S', t.timestamp)
+        WHEN n.time IS NOT NULL THEN strftime('%Y-%m-%d', t.timestamp) || 'T' || n.time
+        ELSE t.timestamp
+    END AS timestamp,
+    t.place, 
+    t.description, 
+    t.data,
+    t.filename, 
+    NULL AS position,     -- NULL for position in timeline entries
+    tn.keep, 
+    tn.notes, 
+    0 AS is_note,          -- 0 for timeline entries
+    2 AS ordinal
+FROM 
+    timeline AS t
+LEFT JOIN 
+    timeline_notes AS tn 
+ON 
+    t.type = tn.type 
+    AND t.type_id = tn.type_id
+LEFT JOIN 
+    notes AS n 
+ON 
+    t.type = n.type 
+    AND t.type_id = n.type_id    
+WHERE 
+    1=1 AND (tn.keep = 1 OR t.type = 'story')
+    {where_clause}
+    
+UNION 
+
+SELECT 
+    n.id, 
+    n.type,              -- Keep original type from notes
+    n.type_id, 
+    CASE 
+        WHEN n.date IS NOT NULL AND n.time IS NOT NULL THEN n.date || 'T' || n.time
+        WHEN n.date IS NOT NULL THEN n.date || 'T' || strftime('%H:%M:%S', t.timestamp)
+        WHEN n.time IS NOT NULL THEN strftime('%Y-%m-%d', t.timestamp) || 'T' || n.time
+        ELSE t.timestamp
+    END AS timestamp,
+    NULL AS place,       -- No place for notes
+    n.text AS description, -- Use text as the description for notes
+    NULL AS data,        -- No data for notes
+    NULL AS filename,    -- No filename for notes
+    n.position,          -- Use position field from notes
+    NULL AS keep,        -- NULL for keep, not applicable to notes
+    NULL AS notes,       -- NULL for notes, as we're already in the notes table
+    1 AS is_note,         -- 1 for notes
+    CASE                -- Set ordinal based on position
+        WHEN n.position = 'above' THEN 1
+        WHEN n.position = 'below' THEN 3
+    END AS ordinal
+FROM 
+    notes AS n
+JOIN 
+    timeline AS t 
+ON 
+    n.type = t.type 
+    AND n.type_id = t.type_id
+WHERE 
+    1=1
+    {where_clause}
+
+-- Order by timestamp and position
+ORDER BY 
+    timestamp,          -- Sort by timestamp first
+    ordinal;
+    """
+
+    # Prepare the parameters for the query
+    params = tuple(filter(None, [start, end, start, end]))
+
+    cursor = conn.execute(query, params)
+    records = cursor.fetchall()
+    conn.close()
+
+    # Convert records to a list of dictionaries
+    result = []
+    for record in records:
+        try:
+            data = json.loads(record[6])
+        except:
+            data = None
+
+        result.append({
+            'id': record[0],
+            'type': record[1],
+            'type_id': record[2],
+            'timestamp': record[3],
+            'place': record[4],
+            'description': record[5],
+            'data': data,
+            'filename': record[7],
+            'position': record[8],
+            'keep': bool(record[9]),
+            'notes': record[10],
+            'is_note': bool(record[11]),
+            'ordinal': record[12]
         })
 
     return result

@@ -46,7 +46,7 @@ function TimelineCard({ key, record, onClick }) {
                     {imageUrl && (
                         <img
                             src={imageUrl}
-                            alt="Card image"
+                            alt={imageUrl}
                             className="card-img"
                         />
                     )}

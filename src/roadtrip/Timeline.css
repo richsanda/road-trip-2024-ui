@@ -1,0 +1,128 @@
+/* TimelineCard.css */
+.card {
+    display: flex; /* Flex layout for card */
+    flex-direction: column; /* Arrange items in a column */
+    padding: 1.5rem; /* Increased padding */
+    position: relative;
+    width: 100%; /* Full width of parent container */
+    max-width: 960px; /* Increased max width */
+    margin: 0 20px; /* Add equal margins on left and right */
+    border: 1px solid #ccc; /* Optional border */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f9f9f9; /* Card background */
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem; /* Space below title */
+}
+
+.card-content {
+    display: flex; /* Flex layout for image and text */
+    flex-direction: row; /* Arrange items in a row */
+    width: 100%; /* Full width */
+}
+
+.card-text-content {
+    flex: 1; /* Allow text content to fill available space */
+    margin-left: 20px; /* Space between image and text */
+    overflow: auto; /* Allow scrolling if content overflows */
+    max-height: 80vh; /* Limit height for scrolling */
+}
+
+.card-img {
+    flex: 0 0 40%; /* Image takes 40% of the width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners for the image */
+    object-fit: contain; /* Maintain aspect ratio */
+}
+
+.card-img-placeholder {
+    flex: 0 0 40%; /* Placeholder for consistent layout */
+    height: 80vh; /* Ensure it takes a significant height */
+    background-color: #eaeaea; /* Placeholder background color */
+    border-radius: 8px; /* Rounded corners for the placeholder */
+}
+
+.card-text {
+    font-size: 1rem; /* Base text size */
+}
+
+.timeline-nav {
+    cursor: pointer;
+    background-color: #f0f0f0; /* Background color for nav */
+}
+
+.timeline-nav:hover {
+    background-color: #e0e0e0; /* Hover effect */
+}
+
+.timeline-nav-card {
+    padding: 10px; /* Consistent padding for nav cards */
+    margin: 10px 0; /* Vertical margin */
+    border: 1px solid #ccc; /* Optional border */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f0f0f0; /* Background color */
+    text-align: center; /* Center text */
+    cursor: pointer;
+    font-weight: bold; /* Bold text */
+}
+
+.nav-label {
+    color: #007bff; /* Link color */
+}
+
+.timeline-title {
+    padding: 1rem;
+    font-size: 2em;
+    background-color: white; /* Ensure background color matches your layout */
+    position: sticky; /* Make the title sticky */
+    top: 0; /* Position it at the top */
+    z-index: 10; /* Ensure it stays above other content */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for separation */
+}
+
+.timeline-container {
+    padding-top: 20px;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center child elements */
+}
+
+.index-container {
+    width: 25%; /* Width for index */
+    padding: 10px; /* Padding for index container */
+    position: sticky; /* Sticky positioning */
+    top: 0; /* Stick to top */
+    height: 100vh; /* Full height */
+    overflow-y: auto; /* Scroll if necessary */
+}
+
+.timeline-layout {
+    display: flex; /* Arrange child elements in a row */
+}
+
+.day-index {
+    width: 25%; /* Adjust as necessary */
+    height: 80vh; /* Fixed height for the day index */
+    overflow-y: auto; /* Allow vertical scrolling */
+    padding: 1rem; /* Padding for spacing */
+    background-color: #f8f9fa; /* Optional: Light background */
+    border-right: 1px solid #ccc; /* Optional: Border to separate sections */
+}
+
+.timeline-content {
+    flex: 1; /* Allow this section to take remaining space */
+    height: 90vh; /* Fixed height for the timeline cards */
+    overflow-y: auto; /* Allow vertical scrolling */
+    padding: 1rem; /* Padding for spacing */
+}
+
+.highway-sign {
+    background-color: #49b853; 
+    color: #FFFFFF;
+    border: 2px solid #E5E5E5;
+}
+
+
+

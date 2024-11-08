@@ -1,0 +1,458 @@
+{
+  "id": "4cbtSLSi3GIDQI6s62Opjs",
+  "name": "roadtrip playlist",
+  "description": "",
+  "owner": "Sydney",
+  "snapshot_id": "AAAAREWECwqOgaVaHOyfV/bVYyag1+A8",
+  "tracks": [
+    {
+      "id": "57YgVR1hxgSVPMhI3ckK92",
+      "artist_name": "Jack Stauber's Micropop",
+      "song_name": "Choice",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b27381315fc54ae8c2da80dd722f",
+      "song_link": "https://open.spotify.com/track/57YgVR1hxgSVPMhI3ckK92",
+      "added_at": "2024-06-24T16:24:55Z"
+    },
+    {
+      "id": "2Evk4YMwD4zjjha2k3dbV7",
+      "artist_name": "Andrew Underberg",
+      "song_name": "Stayed Gone",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2735c8d1d739c94135dec75d432",
+      "song_link": "https://open.spotify.com/track/2Evk4YMwD4zjjha2k3dbV7",
+      "added_at": "2024-06-27T18:31:34Z"
+    },
+    {
+      "id": "5kqIPrATaCc2LqxVWzQGbk",
+      "artist_name": "Lukas Graham",
+      "song_name": "7 Years",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2732d94d0f04e9a58d1654b760b",
+      "song_link": "https://open.spotify.com/track/5kqIPrATaCc2LqxVWzQGbk",
+      "added_at": "2024-06-24T16:15:49Z"
+    },
+    {
+      "id": "4sNwdacKyi2S26WrRtNama",
+      "artist_name": "MARINA",
+      "song_name": "Oh No!",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b27336f6918170afcb7fe66130e5",
+      "song_link": "https://open.spotify.com/track/4sNwdacKyi2S26WrRtNama",
+      "added_at": "2024-06-24T16:25:39Z"
+    },
+    {
+      "id": "7JTGwb6ug0z15F5roNLE0s",
+      "artist_name": "Jack Stauber's Micropop",
+      "song_name": "Two Time",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273ca8ca1a02032c0943de6e136",
+      "song_link": "https://open.spotify.com/track/7JTGwb6ug0z15F5roNLE0s",
+      "added_at": "2024-06-24T16:24:50Z"
+    },
+    {
+      "id": "6WI2GsakMUzGf9EGT0Ln5t",
+      "artist_name": "The Living Tombstone",
+      "song_name": "Drunk",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b27399c0e3409051cd3d6cc6eeb0",
+      "song_link": "https://open.spotify.com/track/6WI2GsakMUzGf9EGT0Ln5t",
+      "added_at": "2024-06-24T16:26:09Z"
+    },
+    {
+      "id": "1R1ihosU2CSEaSw8e5ZF6E",
+      "artist_name": "MARINA",
+      "song_name": "Ancient Dreams in a Modern Land",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b27336c95d8631f465e6898bccc8",
+      "song_link": "https://open.spotify.com/track/1R1ihosU2CSEaSw8e5ZF6E",
+      "added_at": "2024-06-24T16:25:48Z"
+    },
+    {
+      "id": "0kYMwaQWABTkFff8AZjmYI",
+      "artist_name": "Mother Mother",
+      "song_name": "Hayloft II",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273ac91ecc149d3fb876f117a84",
+      "song_link": "https://open.spotify.com/track/0kYMwaQWABTkFff8AZjmYI",
+      "added_at": "2024-06-24T16:26:27Z"
+    },
+    {
+      "id": "0XyjtybwqSdqMAFfBEkmZf",
+      "artist_name": "Bikini Kill",
+      "song_name": "Rebel Girl",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2733aaf814e8350a1ae241603a0",
+      "song_link": "https://open.spotify.com/track/0XyjtybwqSdqMAFfBEkmZf",
+      "added_at": "2024-06-24T16:25:17Z"
+    },
+    {
+      "id": "2zmo93xTzKTP0lztR9iy9H",
+      "artist_name": "Jack Stauber's Micropop",
+      "song_name": "Coffee",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b27348cc1333d5c15fbf25f7c49d",
+      "song_link": "https://open.spotify.com/track/2zmo93xTzKTP0lztR9iy9H",
+      "added_at": "2024-06-24T16:24:44Z"
+    },
+    {
+      "id": "18yAbyPSVNOypgT1iM7GU6",
+      "artist_name": "Bo Burnham",
+      "song_name": "Hell of a Ride (Studio)",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2736ec87f34fb2e058cc3bf499e",
+      "song_link": "https://open.spotify.com/track/18yAbyPSVNOypgT1iM7GU6",
+      "added_at": "2024-06-27T18:21:26Z"
+    },
+    {
+      "id": "6Zbv79YWB0iZSXwIwEsIOP",
+      "artist_name": "The Dresden Dolls",
+      "song_name": "Girl Anachronism",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273040bf58b9ae4f8c2f940dd82",
+      "song_link": "https://open.spotify.com/track/6Zbv79YWB0iZSXwIwEsIOP",
+      "added_at": "2024-06-24T16:22:20Z"
+    },
+    {
+      "id": "2GlV9w8oHSQdiPPk9lxqlp",
+      "artist_name": "Lemon Demon",
+      "song_name": "Fine",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2735d2f39265b6ffeebcae4bfaf",
+      "song_link": "https://open.spotify.com/track/2GlV9w8oHSQdiPPk9lxqlp",
+      "added_at": "2024-06-24T16:26:03Z"
+    },
+    {
+      "id": "3jjsRKEsF42ccXf8kWR3nu",
+      "artist_name": "Mitski",
+      "song_name": "Washing Machine Heart",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273c428f67b4a9b7e1114dfc117",
+      "song_link": "https://open.spotify.com/track/3jjsRKEsF42ccXf8kWR3nu",
+      "added_at": "2024-06-24T16:21:49Z"
+    },
+    {
+      "id": "4Zcz6saEkOII3PlXd9gN3o",
+      "artist_name": "MARINA",
+      "song_name": "Hermit the Frog",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b27336f6918170afcb7fe66130e5",
+      "song_link": "https://open.spotify.com/track/4Zcz6saEkOII3PlXd9gN3o",
+      "added_at": "2024-06-24T16:25:44Z"
+    },
+    {
+      "id": "3CwIYemTONwWpSZwMAmlu7",
+      "artist_name": "Fish in a Birdcage",
+      "song_name": "Rule #4 - Fish in a Birdcage",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273904494d58621cead409500c5",
+      "song_link": "https://open.spotify.com/track/3CwIYemTONwWpSZwMAmlu7",
+      "added_at": "2024-06-24T16:21:10Z"
+    },
+    {
+      "id": "0zLcFLRTPMwwo2dULiV2k0",
+      "artist_name": "The Dresden Dolls",
+      "song_name": "Backstabber",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273c3c284fed41a5797ffbbe2ed",
+      "song_link": "https://open.spotify.com/track/0zLcFLRTPMwwo2dULiV2k0",
+      "added_at": "2024-06-24T16:24:12Z"
+    },
+    {
+      "id": "2gvmxusSOe3vNjNDjQWaso",
+      "artist_name": "The Dresden Dolls",
+      "song_name": "My Alcoholic Friends",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273c3c284fed41a5797ffbbe2ed",
+      "song_link": "https://open.spotify.com/track/2gvmxusSOe3vNjNDjQWaso",
+      "added_at": "2024-06-24T16:22:11Z"
+    },
+    {
+      "id": "1YrnDTqvcnUKxAIeXyaEmU",
+      "artist_name": "The Smiths",
+      "song_name": "How Soon Is Now? - 2011 Remaster",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273786b44c75ebf915866523f5b",
+      "song_link": "https://open.spotify.com/track/1YrnDTqvcnUKxAIeXyaEmU",
+      "added_at": "2024-06-24T16:21:45Z"
+    },
+    {
+      "id": "2BK4RO4S66gu7Nb8LF4ANc",
+      "artist_name": "The Dresden Dolls",
+      "song_name": "Missed Me",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273040bf58b9ae4f8c2f940dd82",
+      "song_link": "https://open.spotify.com/track/2BK4RO4S66gu7Nb8LF4ANc",
+      "added_at": "2024-06-24T16:24:05Z"
+    },
+    {
+      "id": "0L7MpEwFgZRP5rFdXOYaRT",
+      "artist_name": "Miracle Musical",
+      "song_name": "Labyrinth",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b27339c36c6a7d02d0dae5476ff7",
+      "song_link": "https://open.spotify.com/track/0L7MpEwFgZRP5rFdXOYaRT",
+      "added_at": "2024-06-24T16:20:19Z"
+    },
+    {
+      "id": "5zgkOLH6HfY5w8thZoS2jP",
+      "artist_name": "Kinneret",
+      "song_name": "No Wind Resistance!",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273ea3d0b6716ef1b010c2f4835",
+      "song_link": "https://open.spotify.com/track/5zgkOLH6HfY5w8thZoS2jP",
+      "added_at": "2024-06-24T16:21:05Z"
+    },
+    {
+      "id": "3AJwUDP919kvQ9QcozQPxg",
+      "artist_name": "Coldplay",
+      "song_name": "Yellow",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2739164bafe9aaa168d93f4816a",
+      "song_link": "https://open.spotify.com/track/3AJwUDP919kvQ9QcozQPxg",
+      "added_at": "2024-06-24T16:20:49Z"
+    },
+    {
+      "id": "0HBrtXJohbIW4IhPZ50GmH",
+      "artist_name": "Tally Hall",
+      "song_name": "The Bidding",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273b9ccb466665c2ac10dc0d628",
+      "song_link": "https://open.spotify.com/track/0HBrtXJohbIW4IhPZ50GmH",
+      "added_at": "2024-06-24T16:22:07Z"
+    },
+    {
+      "id": "2h4MTQZP8quVwuwrtIPErD",
+      "artist_name": "Jeremy Jordan",
+      "song_name": "Hell\u2019s Greatest Dad",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273058d85d25752a6701564ba06",
+      "song_link": "https://open.spotify.com/track/2h4MTQZP8quVwuwrtIPErD",
+      "added_at": "2024-06-24T16:20:07Z"
+    },
+    {
+      "id": "11iIikXxC6NP0Ma8vMD27x",
+      "artist_name": "Vundabar",
+      "song_name": "Alien Blues",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273578b0e6109b76bad0821ca71",
+      "song_link": "https://open.spotify.com/track/11iIikXxC6NP0Ma8vMD27x",
+      "added_at": "2024-06-24T16:21:39Z"
+    },
+    {
+      "id": "0I1eFRytp4XRhLCjT6tZm7",
+      "artist_name": "Roar",
+      "song_name": "I Can't Handle Change",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273d72f734a66c2b545facd7517",
+      "song_link": "https://open.spotify.com/track/0I1eFRytp4XRhLCjT6tZm7",
+      "added_at": "2024-06-24T16:22:02Z"
+    },
+    {
+      "id": "1foMv2HQwfQ2vntFf9HFeG",
+      "artist_name": "Gorillaz",
+      "song_name": "Rhinestone Eyes",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273661d019f34569f79eae9e985",
+      "song_link": "https://open.spotify.com/track/1foMv2HQwfQ2vntFf9HFeG",
+      "added_at": "2024-06-24T16:21:53Z"
+    },
+    {
+      "id": "1PtQJZVZIdWIYdARpZRDFO",
+      "artist_name": "Kate Bush",
+      "song_name": "Running Up That Hill (A Deal With God)",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273ad08f4b38efbff0c0da0f252",
+      "song_link": "https://open.spotify.com/track/1PtQJZVZIdWIYdARpZRDFO",
+      "added_at": "2024-06-24T16:19:11Z"
+    },
+    {
+      "id": "6JyzuWC92biyVZ1l4vUYzi",
+      "artist_name": "Erika Henningsen",
+      "song_name": "Ready For This",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273058d85d25752a6701564ba06",
+      "song_link": "https://open.spotify.com/track/6JyzuWC92biyVZ1l4vUYzi",
+      "added_at": "2024-06-24T16:19:55Z"
+    },
+    {
+      "id": "6xqJ0XqDM9dVEW1jbm78wB",
+      "artist_name": "The Living Tombstone",
+      "song_name": "Discord",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2730258584fffca13b547ec4f8c",
+      "song_link": "https://open.spotify.com/track/6xqJ0XqDM9dVEW1jbm78wB",
+      "added_at": "2024-06-24T16:19:31Z"
+    },
+    {
+      "id": "7co88DKACpUeOxfQxrkliN",
+      "artist_name": "Caro Emerald",
+      "song_name": "Tangled Up - Lokee Remix",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2736fd8c7a5cab665b1ca320b61",
+      "song_link": "https://open.spotify.com/track/7co88DKACpUeOxfQxrkliN",
+      "added_at": "2024-06-24T16:18:16Z"
+    },
+    {
+      "id": "7AiyEjzPzmxIyvJVw2g8w3",
+      "artist_name": "The Front Bottoms",
+      "song_name": "Be Nice To Me",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273f383019d67636ff4a77eb2ef",
+      "song_link": "https://open.spotify.com/track/7AiyEjzPzmxIyvJVw2g8w3",
+      "added_at": "2024-06-24T16:21:26Z"
+    },
+    {
+      "id": "2LTCVKCcbKQBoqofOkI0fB",
+      "artist_name": "Kate Bush",
+      "song_name": "Army Dreamers",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2738135bea532f6949921a41d42",
+      "song_link": "https://open.spotify.com/track/2LTCVKCcbKQBoqofOkI0fB",
+      "added_at": "2024-06-24T16:18:41Z"
+    },
+    {
+      "id": "2Y0iGXY6m6immVb2ktbseM",
+      "artist_name": "MGMT",
+      "song_name": "Little Dark Age",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273b47d309281c66820b7137f5d",
+      "song_link": "https://open.spotify.com/track/2Y0iGXY6m6immVb2ktbseM",
+      "added_at": "2024-06-24T16:18:32Z"
+    },
+    {
+      "id": "63PoQFqCBMlCUDBUtUiXRZ",
+      "artist_name": "Ghost and Pals",
+      "song_name": "Candle Queen",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2739d701d82826f25ad3c7014f0",
+      "song_link": "https://open.spotify.com/track/63PoQFqCBMlCUDBUtUiXRZ",
+      "added_at": "2024-06-24T16:20:31Z"
+    },
+    {
+      "id": "0EF1EE8zusg3Y869e56JFd",
+      "artist_name": "Rio Romeo",
+      "song_name": "Nothing's New",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273502345ddf02b0fe85ad15830",
+      "song_link": "https://open.spotify.com/track/0EF1EE8zusg3Y869e56JFd",
+      "added_at": "2024-06-24T16:18:09Z"
+    },
+    {
+      "id": "23rdcrD0Eky4vYn2TZidxJ",
+      "artist_name": "AURORA",
+      "song_name": "Runaway",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273009516bc4f16759f46ded073",
+      "song_link": "https://open.spotify.com/track/23rdcrD0Eky4vYn2TZidxJ",
+      "added_at": "2024-06-24T16:16:44Z"
+    },
+    {
+      "id": "3n69hLUdIsSa1WlRmjMZlW",
+      "artist_name": "alt-J",
+      "song_name": "Breezeblocks",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273609c89ad17eb28c2013c56c6",
+      "song_link": "https://open.spotify.com/track/3n69hLUdIsSa1WlRmjMZlW",
+      "added_at": "2024-06-24T16:17:55Z"
+    },
+    {
+      "id": "49qujGctHLuEXF35sWwG2c",
+      "artist_name": "Emily Rohm",
+      "song_name": "The Ballad of Jane Doe",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b27343dc9cee9ed41afd182001ec",
+      "song_link": "https://open.spotify.com/track/49qujGctHLuEXF35sWwG2c",
+      "added_at": "2024-06-24T16:17:29Z"
+    },
+    {
+      "id": "0rRjGruFonCGOt0S5zAJNQ",
+      "artist_name": "Glass Animals",
+      "song_name": "The Other Side Of Paradise",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273ec3d15eab5bd77027abc4b23",
+      "song_link": "https://open.spotify.com/track/0rRjGruFonCGOt0S5zAJNQ",
+      "added_at": "2024-06-24T16:17:03Z"
+    },
+    {
+      "id": "33WTgxRdPBQQpVCMXpNxhO",
+      "artist_name": "AURORA",
+      "song_name": "Cure For Me",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b27313e38f3da42937aba61956f0",
+      "song_link": "https://open.spotify.com/track/33WTgxRdPBQQpVCMXpNxhO",
+      "added_at": "2024-06-24T16:16:53Z"
+    },
+    {
+      "id": "424DkevE18QJazwlljiTD4",
+      "artist_name": "Richard Carter",
+      "song_name": "Le Monde - From Talk to Me",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273f25ca366fd656df2e0089409",
+      "song_link": "https://open.spotify.com/track/424DkevE18QJazwlljiTD4",
+      "added_at": "2024-06-24T16:16:29Z"
+    },
+    {
+      "id": "0MMyJUC3WNnFS1lit5pTjk",
+      "artist_name": "Olivia Rodrigo",
+      "song_name": "jealousy, jealousy",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273a91c10fe9472d9bd89802e5a",
+      "song_link": "https://open.spotify.com/track/0MMyJUC3WNnFS1lit5pTjk",
+      "added_at": "2024-06-24T16:16:37Z"
+    },
+    {
+      "id": "7KV7xwHTJbzbwGQEHLIzR8",
+      "artist_name": "Roar",
+      "song_name": "Christmas Kids",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2737ffa4709d9debeacb9723a56",
+      "song_link": "https://open.spotify.com/track/7KV7xwHTJbzbwGQEHLIzR8",
+      "added_at": "2024-06-24T16:17:46Z"
+    },
+    {
+      "id": "2nwmt5R9QX7iyobL1PSyJl",
+      "artist_name": "Jorge Rivera-Herrans",
+      "song_name": "Just a Man",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273969f7e5f7829674cf2dfa0f4",
+      "song_link": "https://open.spotify.com/track/2nwmt5R9QX7iyobL1PSyJl",
+      "added_at": "2024-06-24T16:18:59Z"
+    },
+    {
+      "id": "37adYGaYaAWTGhBaOzX4Fh",
+      "artist_name": "Glass Animals",
+      "song_name": "Take A Slice",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273ec3d15eab5bd77027abc4b23",
+      "song_link": "https://open.spotify.com/track/37adYGaYaAWTGhBaOzX4Fh",
+      "added_at": "2024-06-24T16:17:15Z"
+    },
+    {
+      "id": "6AIq6RZn5qtvrGbSpbC6cI",
+      "artist_name": "Penelope Scott",
+      "song_name": "Baxter 3rd Is Under Fucking Siege",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b27318e5871b4499ba01baa14fe9",
+      "song_link": "https://open.spotify.com/track/6AIq6RZn5qtvrGbSpbC6cI",
+      "added_at": "2024-06-24T16:16:06Z"
+    },
+    {
+      "id": "3d8y0t70g7hw2FOWl9Z4Fm",
+      "artist_name": "The Lumineers",
+      "song_name": "Ophelia",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2732ebf129f0db6d0e88372600e",
+      "song_link": "https://open.spotify.com/track/3d8y0t70g7hw2FOWl9Z4Fm",
+      "added_at": "2024-06-24T16:41:53Z"
+    },
+    {
+      "id": "1zyGFId8xHOcRmCmehrwlc",
+      "artist_name": "Scissor Sisters",
+      "song_name": "I Can't Decide",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273ab41b12bbc0f61ebdfb2dfaf",
+      "song_link": "https://open.spotify.com/track/1zyGFId8xHOcRmCmehrwlc",
+      "added_at": "2024-06-27T18:19:25Z"
+    },
+    {
+      "id": "0WbMK4wrZ1wFSty9F7FCgu",
+      "artist_name": "Chappell Roan",
+      "song_name": "Good Luck, Babe!",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b27391b4bc7c88d91a42e0f3a8b7",
+      "song_link": "https://open.spotify.com/track/0WbMK4wrZ1wFSty9F7FCgu",
+      "added_at": "2024-07-02T15:04:34Z"
+    },
+    {
+      "id": "2QjOHCTQ1Jl3zawyYOpxh6",
+      "artist_name": "The Neighbourhood",
+      "song_name": "Sweater Weather",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2738265a736a1eb838ad5a0b921",
+      "song_link": "https://open.spotify.com/track/2QjOHCTQ1Jl3zawyYOpxh6",
+      "added_at": "2024-07-02T15:14:54Z"
+    },
+    {
+      "id": "6Ux7hThoEVu7V0YmmZqunV",
+      "artist_name": "Alex Brightman",
+      "song_name": "Hell Is Forever",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273058d85d25752a6701564ba06",
+      "song_link": "https://open.spotify.com/track/6Ux7hThoEVu7V0YmmZqunV",
+      "added_at": "2024-07-03T14:41:25Z"
+    },
+    {
+      "id": "1nEeHJvkOjHmFgDw8esamO",
+      "artist_name": "Erika Henningsen",
+      "song_name": "Happy Day In Hell - Hazbin Hotel Original Soundtrack",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273708a6a417a646f86700152c2",
+      "song_link": "https://open.spotify.com/track/1nEeHJvkOjHmFgDw8esamO",
+      "added_at": "2024-07-03T14:43:41Z"
+    },
+    {
+      "id": "05UdmOwDMr4LsAk56AFfsE",
+      "artist_name": "Peter McPoland",
+      "song_name": "Digital Silence",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273d68115b481ece9368a4823b5",
+      "song_link": "https://open.spotify.com/track/05UdmOwDMr4LsAk56AFfsE",
+      "added_at": "2024-07-03T17:16:23Z"
+    },
+    {
+      "id": "4qbEaaJ29p32GI8EWQmm6R",
+      "artist_name": "mazie",
+      "song_name": "dumb dumb",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273bd22a6bab8658d9cd4daa5bd",
+      "song_link": "https://open.spotify.com/track/4qbEaaJ29p32GI8EWQmm6R",
+      "added_at": "2024-07-10T14:54:03Z"
+    }
+  ],
+  "approx_created_at": "2024-06-24T16:24:55Z"
+}

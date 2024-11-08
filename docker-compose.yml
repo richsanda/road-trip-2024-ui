@@ -1,0 +1,34 @@
+services:
+  flask:
+    build:
+      context: ./python
+      dockerfile: Dockerfile
+    image: us-east4-docker.pkg.dev/road-trip-2024-437821/road-trip-2024/flask-image:latest
+    container_name: flask
+    environment:
+      - FLASK_RUN_PORT=${FLASK_RUN_PORT:-5000}
+      - FLASK_ENV=development
+    ports:
+      - "${FLASK_RUN_PORT:-5000}:${FLASK_RUN_PORT:-5000}"  # Local: 5000, Prod: 8080
+    volumes:
+      - ./python:/app
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:${FLASK_RUN_PORT}/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  nginx:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: us-east4-docker.pkg.dev/road-trip-2024-437821/road-trip-2024/nginx-image:latest
+    container_name: nginx
+    environment:
+      - NGINX_PORT=8080  # Hardcoded to use port 8080
+    ports:
+      - "8080:8080"  # Local: 3001, Prod: 8080    
+    volumes:
+      - ./nginx:/etc/nginx/conf.d
+      - ./build:/usr/share/nginx/html
+      - ./images:/usr/share/nginx/html/images  # Map images directory here

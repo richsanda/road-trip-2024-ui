@@ -3,21 +3,22 @@ import json
 import os
 from flask_cors import CORS
 from datetime import datetime
-from src.data.connection import get_db_connection
+from connection import get_db_connection
 from src.data.maps import fetch_all_maps, update_map_timestamp, update_map_hide
 from src.data.receipts import fetch_all_receipts, update_receipt_timestamp
-from src.data.timeline import fetch_timeline_by_timestamp_range, update_timeline_keep
+from src.data.timeline import fetch_timeline_with_notes_by_timestamp_range, update_timeline_keep
 from src.data.pictures import fetch_pictures_by_timestamp_range
 from src.data.shazams import fetch_all_shazams
 from src.data.songs import fetch_all_songs
 from src.data.messages import fetch_all_messages
 from src.data.stories import StoriesData
+from src.data.notes import NotesData
 
 app = Flask(__name__)
 CORS(app)
 
 stories_data = StoriesData("database.db")
-
+notes_data = NotesData("database.db")
 
 def iso_to_pretty_date(iso_string):
     # Parse the ISO 8601 string to a datetime object
@@ -214,7 +215,10 @@ def get_timeline():
     start = request.args.get('start')
     end = request.args.get('end')
 
-    records = fetch_timeline_by_timestamp_range(start, end)
+    records = fetch_timeline_with_notes_by_timestamp_range(start, end)
+    # add_blob_names(records, 'blob_name')
+    # generate_urls(records, 'blob_name', 'signed_url')
+
     response = json.dumps(records, indent=4)  # Pretty print with 4 spaces
     return app.response_class(
         response=response,
@@ -276,6 +280,48 @@ def update_ranks():
         return jsonify({'message': 'Ranks updated successfully'}), 200
     else:
         return jsonify({'error': 'Failed to update ranks'}), 500
+
+
+# GET Endpoint to retrieve stories, filtered by category
+@app.route('/notes', methods=['GET'])
+def get_notes():
+    notes_list = notes_data.fetch_all_notes()
+    return jsonify(notes_list)
+
+
+# GET Endpoint to retrieve stories, filtered by category
+@app.route('/notes/id', methods=['GET'])
+def get_notes_by_id():
+    note_id = request.args.get('id')  # Get the category filter from query parameters
+    note = notes_data.fetch_note_by_id(note_id)
+    return jsonify(dict(note))
+
+
+@app.route('/notes', methods=['POST'])
+def update_note():
+    data = request.get_json()  # Get the JSON body from the POST request
+
+    # Extract the ID (required)
+    note_id = data.get('id')
+    if not note_id:
+        note_id = notes_data.insert_note(
+            data['type_id'], data['type'], data['position'], data['text'])
+    else:
+        notes_data.update_note(note_id, data)
+
+    note = notes_data.fetch_note_by_id(note_id)
+
+    return jsonify(dict(note))
+
+
+@app.route('/notes', methods=['DELETE'])
+def delete_note():
+    data = request.get_json()  # Get the JSON body from the POST request
+
+    # Extract the ID (required)
+    note_id = data.get('id')
+
+    return notes_data.delete_note_by_id(note_id)
 
 
 if __name__ == "__main__":

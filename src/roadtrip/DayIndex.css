@@ -1,0 +1,29 @@
+.index-container {
+    position: sticky;
+    top: 0;
+    height: 100vh; /* Full viewport height */
+    overflow-y: auto; /* Scrollable if needed */
+    padding: 10px; /* Optional padding */
+    padding-bottom: 4px;
+    width: 25%; /* Occupy 25% of the width */
+    display: flex;
+    flex-direction: column;
+}
+
+.index-item {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height: 40px; /* Half the height */
+    font-size: 0.8em; /* Adjusted font size for normal appearance */
+    text-align: center; /* Center text */
+}
+
+.index-item.active {
+    background-color: #e7f3d9; /* Light olive green tending toward yellow */
+    border: 2px solid lavender; /* Lavender border */
+    font-weight: bold; /* Bold for active item */
+}
+
+.index-item:hover {
+    background-color: #f0f0f0; /* Light gray on hover for inactive items */
+}

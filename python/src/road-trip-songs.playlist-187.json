@@ -1,0 +1,114 @@
+{
+  "id": "05sTOluR8dsB7xaztqBafT",
+  "name": "My playlist #187",
+  "description": "",
+  "owner": "Rich Sanda",
+  "snapshot_id": "AAAADkSbEpMADqzvnhMFq3eOEgLgDduV",
+  "tracks": [
+    {
+      "id": "1aKNUssPQ9F7GRteYrnJIc",
+      "artist_name": "The Weather Station",
+      "song_name": "Kept It All to Myself",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273b21d797800e56bcdbee20476",
+      "song_link": "https://open.spotify.com/track/1aKNUssPQ9F7GRteYrnJIc",
+      "added_at": "2024-07-05T15:28:28Z"
+    },
+    {
+      "id": "2TQXJmPwCgmIXpAtz9dyCI",
+      "artist_name": "The Weather Station",
+      "song_name": "Thirty",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273b21d797800e56bcdbee20476",
+      "song_link": "https://open.spotify.com/track/2TQXJmPwCgmIXpAtz9dyCI",
+      "added_at": "2024-07-05T15:28:29Z"
+    },
+    {
+      "id": "17JBtTBorAVZIsZZew2xWr",
+      "artist_name": "The Weather Station",
+      "song_name": "You and I (On the Other Side of the World)",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273b21d797800e56bcdbee20476",
+      "song_link": "https://open.spotify.com/track/17JBtTBorAVZIsZZew2xWr",
+      "added_at": "2024-07-05T15:28:46Z"
+    },
+    {
+      "id": "5OXKRcuhKDHZgAWGl2dKKJ",
+      "artist_name": "Indigo Sparke",
+      "song_name": "Burn",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2730f13ef5d282f17ceac4c3b28",
+      "song_link": "https://open.spotify.com/track/5OXKRcuhKDHZgAWGl2dKKJ",
+      "added_at": "2024-07-05T15:29:01Z"
+    },
+    {
+      "id": "38YaymwM6Udptg4N8TUSdj",
+      "artist_name": "Indigo Sparke",
+      "song_name": "Why Do You Lie",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2730f13ef5d282f17ceac4c3b28",
+      "song_link": "https://open.spotify.com/track/38YaymwM6Udptg4N8TUSdj",
+      "added_at": "2024-07-05T15:29:09Z"
+    },
+    {
+      "id": "7gZ7CFs9RPYgZJZv3FSJC3",
+      "artist_name": "The Weather Station",
+      "song_name": "Way It Is, Way It Could Be",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273ea192e4954c07590d3099247",
+      "song_link": "https://open.spotify.com/track/7gZ7CFs9RPYgZJZv3FSJC3",
+      "added_at": "2024-07-05T15:29:18Z"
+    },
+    {
+      "id": "32tzD2DlyIyPsMMsxwzKkX",
+      "artist_name": "The Weather Station",
+      "song_name": "Shy Women",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273ea192e4954c07590d3099247",
+      "song_link": "https://open.spotify.com/track/32tzD2DlyIyPsMMsxwzKkX",
+      "added_at": "2024-07-05T15:29:34Z"
+    },
+    {
+      "id": "4hpHGNOycA02mFKH6U97Gx",
+      "artist_name": "S.G. Goodman",
+      "song_name": "Teeth Marks",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b27389c57b7469989dabff817d72",
+      "song_link": "https://open.spotify.com/track/4hpHGNOycA02mFKH6U97Gx",
+      "added_at": "2024-07-05T15:29:49Z"
+    },
+    {
+      "id": "0Nqpwh40TX2a1rsq1u3auY",
+      "artist_name": "S.G. Goodman",
+      "song_name": "Heart Swell",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273448200cfa67ab59c154addf3",
+      "song_link": "https://open.spotify.com/track/0Nqpwh40TX2a1rsq1u3auY",
+      "added_at": "2024-07-05T15:30:02Z"
+    },
+    {
+      "id": "0KpotGMCWUg8czMdCgw0BY",
+      "artist_name": "Samantha Crain",
+      "song_name": "Reunion",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2739bfcb17cbaf4a8a61ba354b9",
+      "song_link": "https://open.spotify.com/track/0KpotGMCWUg8czMdCgw0BY",
+      "added_at": "2024-07-05T15:32:18Z"
+    },
+    {
+      "id": "3GILEwEmWoonGBHZ0GgMoK",
+      "artist_name": "Lula Wiles",
+      "song_name": "Television",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273c73bd850912aed7557f95d91",
+      "song_link": "https://open.spotify.com/track/3GILEwEmWoonGBHZ0GgMoK",
+      "added_at": "2024-07-05T15:33:20Z"
+    },
+    {
+      "id": "2jHFkaWfr0UlmOiJ8Bsiyj",
+      "artist_name": "The Weather Station",
+      "song_name": "Complicit",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273b21d797800e56bcdbee20476",
+      "song_link": "https://open.spotify.com/track/2jHFkaWfr0UlmOiJ8Bsiyj",
+      "added_at": "2024-07-05T15:34:30Z"
+    },
+    {
+      "id": "48vwyJNYbkxmRomS1V53IK",
+      "artist_name": "Great Lake Swimmers",
+      "song_name": "Swimming Away",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273285939622bd070c22d2f3359",
+      "song_link": "https://open.spotify.com/track/48vwyJNYbkxmRomS1V53IK",
+      "added_at": "2024-07-14T12:35:19Z"
+    }
+  ],
+  "approx_created_at": "2024-07-05T15:28:28Z"
+}

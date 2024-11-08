@@ -1,0 +1,154 @@
+{
+  "id": "3IObyYHljpzI9F9N1gIrHC",
+  "name": "sid's 10 songs",
+  "description": "",
+  "owner": "Rich Sanda",
+  "snapshot_id": "AAAAELu87H4wnVROIWQFZdSAh0DtrKsF",
+  "tracks": [
+    {
+      "id": "1R1ihosU2CSEaSw8e5ZF6E",
+      "artist_name": "MARINA",
+      "song_name": "Ancient Dreams in a Modern Land",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b27336c95d8631f465e6898bccc8",
+      "song_link": "https://open.spotify.com/track/1R1ihosU2CSEaSw8e5ZF6E",
+      "added_at": "2024-10-26T20:50:51Z"
+    },
+    {
+      "id": "7dSCxR4LqkmxoBrq9MzVSD",
+      "artist_name": "Talking Heads",
+      "song_name": "Psycho Killer",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273b74dc29f68a36438421a9f1d",
+      "song_link": "https://open.spotify.com/track/7dSCxR4LqkmxoBrq9MzVSD",
+      "added_at": "2024-10-26T20:52:23Z"
+    },
+    {
+      "id": "7cdnq45E9aP2XDStHg5vd7",
+      "artist_name": "The Runaways",
+      "song_name": "Cherry Bomb",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273a1c553575418ca43404cb48b",
+      "song_link": "https://open.spotify.com/track/7cdnq45E9aP2XDStHg5vd7",
+      "added_at": "2024-10-26T20:52:23Z"
+    },
+    {
+      "id": "0WbMK4wrZ1wFSty9F7FCgu",
+      "artist_name": "Chappell Roan",
+      "song_name": "Good Luck, Babe!",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b27391b4bc7c88d91a42e0f3a8b7",
+      "song_link": "https://open.spotify.com/track/0WbMK4wrZ1wFSty9F7FCgu",
+      "added_at": "2024-10-26T20:52:23Z"
+    },
+    {
+      "id": "49qujGctHLuEXF35sWwG2c",
+      "artist_name": "Emily Rohm",
+      "song_name": "The Ballad of Jane Doe",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b27343dc9cee9ed41afd182001ec",
+      "song_link": "https://open.spotify.com/track/49qujGctHLuEXF35sWwG2c",
+      "added_at": "2024-10-26T20:52:23Z"
+    },
+    {
+      "id": "0XyjtybwqSdqMAFfBEkmZf",
+      "artist_name": "Bikini Kill",
+      "song_name": "Rebel Girl",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2733aaf814e8350a1ae241603a0",
+      "song_link": "https://open.spotify.com/track/0XyjtybwqSdqMAFfBEkmZf",
+      "added_at": "2024-10-26T20:52:23Z"
+    },
+    {
+      "id": "6dss2WRbaDVKw4vpZlNxSv",
+      "artist_name": "Erika Henningsen",
+      "song_name": "Finale",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273058d85d25752a6701564ba06",
+      "song_link": "https://open.spotify.com/track/6dss2WRbaDVKw4vpZlNxSv",
+      "added_at": "2024-10-26T21:18:39Z"
+    },
+    {
+      "id": "2QjOHCTQ1Jl3zawyYOpxh6",
+      "artist_name": "The Neighbourhood",
+      "song_name": "Sweater Weather",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2738265a736a1eb838ad5a0b921",
+      "song_link": "https://open.spotify.com/track/2QjOHCTQ1Jl3zawyYOpxh6",
+      "added_at": "2024-10-26T21:19:29Z"
+    },
+    {
+      "id": "2LTCVKCcbKQBoqofOkI0fB",
+      "artist_name": "Kate Bush",
+      "song_name": "Army Dreamers",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2738135bea532f6949921a41d42",
+      "song_link": "https://open.spotify.com/track/2LTCVKCcbKQBoqofOkI0fB",
+      "added_at": "2024-10-26T21:20:26Z"
+    },
+    {
+      "id": "3AJwUDP919kvQ9QcozQPxg",
+      "artist_name": "Coldplay",
+      "song_name": "Yellow",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2739164bafe9aaa168d93f4816a",
+      "song_link": "https://open.spotify.com/track/3AJwUDP919kvQ9QcozQPxg",
+      "added_at": "2024-10-26T21:28:38Z"
+    },
+    {
+      "id": "6Ux7hThoEVu7V0YmmZqunV",
+      "artist_name": "Alex Brightman",
+      "song_name": "Hell Is Forever",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273058d85d25752a6701564ba06",
+      "song_link": "https://open.spotify.com/track/6Ux7hThoEVu7V0YmmZqunV",
+      "added_at": "2024-10-26T21:28:54Z"
+    },
+    {
+      "id": "1nEeHJvkOjHmFgDw8esamO",
+      "artist_name": "Erika Henningsen",
+      "song_name": "Happy Day In Hell - Hazbin Hotel Original Soundtrack",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273708a6a417a646f86700152c2",
+      "song_link": "https://open.spotify.com/track/1nEeHJvkOjHmFgDw8esamO",
+      "added_at": "2024-10-26T21:29:09Z"
+    },
+    {
+      "id": "1zyGFId8xHOcRmCmehrwlc",
+      "artist_name": "Scissor Sisters",
+      "song_name": "I Can't Decide",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273ab41b12bbc0f61ebdfb2dfaf",
+      "song_link": "https://open.spotify.com/track/1zyGFId8xHOcRmCmehrwlc",
+      "added_at": "2024-10-26T21:29:23Z"
+    },
+    {
+      "id": "0EF1EE8zusg3Y869e56JFd",
+      "artist_name": "Rio Romeo",
+      "song_name": "Nothing's New",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273502345ddf02b0fe85ad15830",
+      "song_link": "https://open.spotify.com/track/0EF1EE8zusg3Y869e56JFd",
+      "added_at": "2024-10-26T21:29:49Z"
+    },
+    {
+      "id": "2BK4RO4S66gu7Nb8LF4ANc",
+      "artist_name": "The Dresden Dolls",
+      "song_name": "Missed Me",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273040bf58b9ae4f8c2f940dd82",
+      "song_link": "https://open.spotify.com/track/2BK4RO4S66gu7Nb8LF4ANc",
+      "added_at": "2024-10-26T21:30:18Z"
+    },
+    {
+      "id": "2gvmxusSOe3vNjNDjQWaso",
+      "artist_name": "The Dresden Dolls",
+      "song_name": "My Alcoholic Friends",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273c3c284fed41a5797ffbbe2ed",
+      "song_link": "https://open.spotify.com/track/2gvmxusSOe3vNjNDjQWaso",
+      "added_at": "2024-10-26T21:30:25Z"
+    },
+    {
+      "id": "0zLcFLRTPMwwo2dULiV2k0",
+      "artist_name": "The Dresden Dolls",
+      "song_name": "Backstabber",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273c3c284fed41a5797ffbbe2ed",
+      "song_link": "https://open.spotify.com/track/0zLcFLRTPMwwo2dULiV2k0",
+      "added_at": "2024-10-26T21:30:28Z"
+    },
+    {
+      "id": "3jjsRKEsF42ccXf8kWR3nu",
+      "artist_name": "Mitski",
+      "song_name": "Washing Machine Heart",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273c428f67b4a9b7e1114dfc117",
+      "song_link": "https://open.spotify.com/track/3jjsRKEsF42ccXf8kWR3nu",
+      "added_at": "2024-10-26T21:30:36Z"
+    }
+  ],
+  "approx_created_at": "2024-10-26T20:50:51Z"
+}

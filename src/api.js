@@ -88,6 +88,22 @@ export async function fetchStories() {
     }
 };
 
+export async function fetchNotes() {
+    try {
+        const response = await fetch(`${apiUrl}/notes`, {
+            method: 'GET',
+            cache: 'no-store' // Ensure no caching
+        });
+        if (!response.ok) {
+            throw new Error('Failed to fetch');
+        }
+        const data = await response.json();
+        return data;
+    } catch (error) {
+        console.error('Error fetching records:', error);
+    }
+};
+
 export async function updateMapTimestamp(id, timestamp) {
     try {
         const response = await fetch(`${apiUrl}/maps/update`, {
@@ -183,6 +199,77 @@ export async function updateStory(id, date, text) {
     try {
         const response = await fetch(`${apiUrl}/stories`, {
             method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(filteredPayload), // Send the filtered payload
+        });
+
+        if (!response.ok) {
+            const errorData = await response.json();
+            throw new Error(errorData.error || 'Unknown error occurred');
+        }
+
+        console.log('Updated successfully');
+        return response.json(); // Indicate success
+    } catch (error) {
+        console.error('Error updating:', error);
+        return false; // Indicate failure
+    }
+}
+
+export async function updateNote(id, type, type_id, position, text, date) {
+    // Create the payload with the optional fields
+    const payload = {
+        id: id,
+        type: type,
+        type_id: type_id,
+        position: position,
+        text: text,
+        date: date
+    };
+
+    // Filter out fields with null or undefined values
+    const filteredPayload = Object.fromEntries(
+        Object.entries(payload).filter(([_, value]) => value != null)
+    );
+
+    try {
+        const response = await fetch(`${apiUrl}/notes`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(filteredPayload), // Send the filtered payload
+        });
+
+        if (!response.ok) {
+            const errorData = await response.json();
+            throw new Error(errorData.error || 'Unknown error occurred');
+        }
+
+        console.log('Updated successfully');
+        return response.json(); // Indicate success
+    } catch (error) {
+        console.error('Error updating:', error);
+        return false; // Indicate failure
+    }
+}
+
+export async function deleteNote(id) {
+    // Create the payload with the optional fields
+    const payload = {
+        id: id
+    };
+
+    // Filter out fields with null or undefined values
+    const filteredPayload = Object.fromEntries(
+        Object.entries(payload).filter(([_, value]) => value != null)
+    );
+
+    try {
+        const response = await fetch(`${apiUrl}/notes`, {
+            method: 'DELETE',
             headers: {
                 'Content-Type': 'application/json',
             },

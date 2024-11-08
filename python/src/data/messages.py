@@ -1,4 +1,4 @@
-from src.data.connection import get_db_connection
+from connection import get_db_connection
 from datetime import datetime
 
 message_query = """

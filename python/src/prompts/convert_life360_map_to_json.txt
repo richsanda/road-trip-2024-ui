@@ -1,0 +1,157 @@
+convert a screen shot of a life 360 drive or trip from a phone into json.
+
+**Example 1:**
+Input:
+
+95
+4:56
+←
+Rich's 42 mi drive
+4:17 pm - 5:24 pm (1 hr 6 min)
+Brockton
+106
+Bridgewater
+pro
+(24)
+Taunton
+Google
+Fall River
+(140)
+Rich's drive details
+I-495, Massachusetts
+home
+Drive events
+78
+123
+lll 14%
+Plymouth
+44
+Wareham
+4:17 PM
+5:24 PM
+2
+0
+0
+MPH
+Top
+High
+Phone
+Hard
+Rapid
+Speed
+Speed Usage
+Braking
+Accel
+O
+3
+
+Output:
+{{
+  "clock" : "4:56",
+  "battery" : "14%",
+  "title" : "Rich's 42 mi drive",
+  "time_display" : "4:17 pm - 5:24 pm (1 hr 6 min)"
+  "distance" : "42",
+  "units" : "mi",
+  "start_time" : "16:17",
+  "end_time" : "17:24",
+  "start_place" : "I-495, Massachusetts",
+  "end_place" : "home",
+  "duration_hours" : 1,
+  "duration_minutes" : 6,
+  "nearby_places" : ["Brockton", "Bridgewater", "Taunton", "Fall River", "Plymouth", "Wareham"],
+  "top_speed" : 78,
+}}
+
+**Example 2:**
+Input:
+
+7:29
+←
+Location Detail
+Skyles Pl
+ver Design Group
+St Peter Lutheran Church,
++
+O
+ll 56%
+SAREABA
+Woodland Pl
+nsin Ave
+Google
+Edgewood Pl
+Location details
+Near 102 Wisconsin Avenue, Montana
+1:33 pm - 2:09 pm (35 min)
+Add to Places
+|||
+B
+O
+
+Output:
+{{
+  "clock" : "7:29",
+  "battery" : "56%",
+  "title" : "Location Detail",
+  "start_time" : "13:33",
+  "end_time" : "14:09",
+  "place" : "Near 102 Wisconsin Avenue, Montana",
+  "time_display" : "1:33 pm - 2:09 pm (35 min)",
+  "duration_hours" : 0,
+  "duration_minutes" : 35,
+  "nearby_places" : ["Skyles Pl", "ver Design Group", "St Peter Lutheran Church", "Woodland Pl", "nsin Ave", "Edgewood Pl"]
+}}
+
+**Example 3:**
+
+4:57
+84
+Rich's 67 mi trip
+3:12 pm - 4:17 pm (1 hr 4 min)
+Google
+93
+Nashua
+495
+lll 14%
+Lawren
+Lowell
+190
+Bosto
+Worcester
+Framingham
+Qui
+395
+95
+Rich's trip details
+Taunton
+Providence
+Fall River
+Warwick
+Newport
+Narragansett
+OI-90, Massachusetts
+3:12 PM
+I-495, Massachusetts
+4:17 PM
+O
+
+Output:
+{{
+  "clock" : "4:57",
+  "battery" : "14%",
+  "title" : "Rich's 67 mi trip",
+  "time_display" : "3:12 pm - 4:17 pm (1 hr 4 min)",
+  "distance" : "67",
+  "units" : "mi",
+  "start_time" : "15:12",
+  "end_time" : "16:17",
+  "start_place" : "I-90, Massachusetts",
+  "end_place" : "I-495, Massachusetts",
+  "duration_hours" : 1,
+  "duration_minutes" : 4,
+  "nearby_places" : ["Nashua", "Lawrence", "Lowell", "Boston", "Worcester", "Framingham", "Quincy", "Taunton", "Providence", "Fall River", "Newport", "Narragansett"],
+}}
+
+**Next Input:**
+{text}
+Output:

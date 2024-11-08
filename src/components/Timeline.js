@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { format } from 'date-fns';
 import DateGrid from './DateGrid';
-import Popup from './Popup';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import TimelineCard from './TimelineCard';
 import './Timeline.css'
@@ -57,9 +56,8 @@ function Timeline() {
         <h2>me and sydney's jun / jul 2024 road trip</h2>
       </div>
 
-
       <div className="records-list-container">
-        <div className="records-list">
+          <div className="records-list">
           {timeline.map((record, index) => (
             <div className="timeline-card" key={index} onClick={() => handleCardClick(index)}>
               <TimelineCard record={record} />
@@ -71,8 +69,7 @@ function Timeline() {
       {/* Modal */}
       {showModal && <TimelineModal records={timeline} initialIndex={selectedIndex} show={showModal} handleClose={closeModal} />}
     </div>
-
-  )
+  );
 }
 
 export default Timeline;

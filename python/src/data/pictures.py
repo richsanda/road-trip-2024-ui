@@ -1,4 +1,4 @@
-from src.data.connection import get_db_connection
+from connection import get_db_connection
 
 
 def fetch_pictures_by_timestamp_range(start=None, end=None):

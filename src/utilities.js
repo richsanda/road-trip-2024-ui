@@ -1,6 +1,6 @@
 const imagesUrl = process.env.REACT_APP_IMAGES_URL;
 
-export const formatISODateTime = (isoDateTime) => {
+export const formatISODateTime = (isoDateTime, includeTime = true) => {
     const date = new Date(isoDateTime);
 
     // Define options for formatting
@@ -18,9 +18,16 @@ export const formatISODateTime = (isoDateTime) => {
 
     return (
         <>
-            <span style={{color: 'darkbrown', fontWeight: 'normal'}} className="date-part">{day} {month}</span>
+            <span style={{ color: 'darkbrown', fontWeight: 'normal' }} className="date-part">{day} {month}</span>
             &nbsp;&nbsp;
-            <span style={{color: 'darkbrown', fontWeight: 'bold'}} className="time-part">{formattedTime}</span>
+            <span style={{ fontWeight: 'normal', color: "darkbrown", fontSize: '0.75em', fontStyle: 'italic' }}>(day {dayOfTrip(date)} of 18)</span>
+            &nbsp;&nbsp;&nbsp;
+            {includeTime && (
+                <>
+                    <span style={{ color: 'darkbrown', fontWeight: 'bold' }} className="time-part">{formattedTime}</span>
+                    &nbsp;
+                </>
+            )}
         </>
     );
 };
@@ -56,7 +63,7 @@ export const getDateFromISO = (isoDateTime) => {
  */
 export function storyTitle(text) {
     // Split the text into lines and return the first line
-    return text.split('\n')[0].trim();
+    return text?.split('\n')[0].trim();
 }
 
 /**
@@ -80,6 +87,28 @@ export function getImageUrl(record) {
         return `${imagesUrl}/pictures/${record.filename}.jpg`;
     } else if (record.type === 'shazam') {
         return record.filename
+    } else if (record.type === 'story' && record.data?.category === 'songs') {
+        return record.data.image_link
     }
-    return null; // Return null if neither 'receipt' nor 'map'
+    return null;
+    // if (record.type === 'shazam') {
+    //     return record.filename;
+    // } else {
+    //     return record.signed_url;
+    // }
 }
+
+export function dayOfTrip(endDate) {
+
+    const startDate = new Date(2024, 5, 27);
+
+    // Calculate the difference in time (in milliseconds)
+    const timeDifference = endDate - startDate;
+
+    // Convert time difference from milliseconds to days
+    const daysDifference = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+
+    return daysDifference + 1;
+}
+
+

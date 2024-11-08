@@ -1,0 +1,522 @@
+{
+  "id": "41vG11QGXrrIfdsE6cy6Sz",
+  "name": "jun-10-2024",
+  "description": "",
+  "owner": "Rich Sanda",
+  "snapshot_id": "AAAAQlyscbNRsXUIp2yDTPvGzb7VT2+7",
+  "tracks": [
+    {
+      "id": "26f6EiUnfdtFf6fg45HSYo",
+      "artist_name": "Neko Case",
+      "song_name": "Down I-5",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273de6d804825d184e767218a9b",
+      "song_link": "https://open.spotify.com/track/26f6EiUnfdtFf6fg45HSYo",
+      "added_at": "2024-06-10T19:46:05Z"
+    },
+    {
+      "id": "0HfCOo3hDSJyR0K1zNyQAR",
+      "artist_name": "Tanukichan",
+      "song_name": "Bitter Medicine",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b27399b14881558d5084e2b2a629",
+      "song_link": "https://open.spotify.com/track/0HfCOo3hDSJyR0K1zNyQAR",
+      "added_at": "2024-06-10T19:46:09Z"
+    },
+    {
+      "id": "2jHFkaWfr0UlmOiJ8Bsiyj",
+      "artist_name": "The Weather Station",
+      "song_name": "Complicit",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273b21d797800e56bcdbee20476",
+      "song_link": "https://open.spotify.com/track/2jHFkaWfr0UlmOiJ8Bsiyj",
+      "added_at": "2024-06-10T19:46:11Z"
+    },
+    {
+      "id": "758wEKVqfYopJIHYWdLVd4",
+      "artist_name": "The Stone Roses",
+      "song_name": "I Wanna Be Adored - Remastered 2009",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273cf1f6466a493eb73d6d9d280",
+      "song_link": "https://open.spotify.com/track/758wEKVqfYopJIHYWdLVd4",
+      "added_at": "2024-06-10T19:46:14Z"
+    },
+    {
+      "id": "2AcQ5Ohv4gQYGe9hX06fhR",
+      "artist_name": "Indigo Sparke",
+      "song_name": "Carnival",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2732a8081249b6090274b9d4823",
+      "song_link": "https://open.spotify.com/track/2AcQ5Ohv4gQYGe9hX06fhR",
+      "added_at": "2024-06-26T13:25:39Z"
+    },
+    {
+      "id": "6k4rh7HziUmX1OccXN0Yhn",
+      "artist_name": "Kacy & Clayton",
+      "song_name": "Strange Country",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2734626921f137e0b3fd6ffbe62",
+      "song_link": "https://open.spotify.com/track/6k4rh7HziUmX1OccXN0Yhn",
+      "added_at": "2024-06-26T14:58:28Z"
+    },
+    {
+      "id": "5tgJjywSXVv4DWHrxAPpuj",
+      "artist_name": "Brandi Carlile",
+      "song_name": "Searching With My Good Eye Closed",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2734ca5af41b0ea26bf749379a9",
+      "song_link": "https://open.spotify.com/track/5tgJjywSXVv4DWHrxAPpuj",
+      "added_at": "2024-06-10T19:46:26Z"
+    },
+    {
+      "id": "4I87004AuztqZ2YEV1vVP9",
+      "artist_name": "Steely Dan",
+      "song_name": "Pretzel Logic",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273120746a40f65d11c2ac29647",
+      "song_link": "https://open.spotify.com/track/4I87004AuztqZ2YEV1vVP9",
+      "added_at": "2024-06-10T19:46:28Z"
+    },
+    {
+      "id": "6JABDQbLV9KRGzK5HqS7OI",
+      "artist_name": "The Weather Station",
+      "song_name": "First Letters",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273e6f7c7e00718a0694f1e89b7",
+      "song_link": "https://open.spotify.com/track/6JABDQbLV9KRGzK5HqS7OI",
+      "added_at": "2024-06-10T19:46:33Z"
+    },
+    {
+      "id": "4S5DBzKz730SPzKTJgEbng",
+      "artist_name": "Randy Crawford",
+      "song_name": "Now We May Begin",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273d81dbbcda02a128fb3822edb",
+      "song_link": "https://open.spotify.com/track/4S5DBzKz730SPzKTJgEbng",
+      "added_at": "2024-06-10T19:46:51Z"
+    },
+    {
+      "id": "0ZG9iIsbVacqjyQNnrCosi",
+      "artist_name": "Brenda Russell",
+      "song_name": "Hello People",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273ceeee53bec31ac86107b1c42",
+      "song_link": "https://open.spotify.com/track/0ZG9iIsbVacqjyQNnrCosi",
+      "added_at": "2024-06-10T19:46:55Z"
+    },
+    {
+      "id": "7IKI3lsBYMQ1oqfdubPpWu",
+      "artist_name": "Indigo Sparke",
+      "song_name": "In The Garden",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273518e92365a54e0037af90e10",
+      "song_link": "https://open.spotify.com/track/7IKI3lsBYMQ1oqfdubPpWu",
+      "added_at": "2024-06-11T00:09:00Z"
+    },
+    {
+      "id": "12pKu9gNP3joSec1VeaA1S",
+      "artist_name": "Indigo Sparke",
+      "song_name": "Golden Age",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2732a8081249b6090274b9d4823",
+      "song_link": "https://open.spotify.com/track/12pKu9gNP3joSec1VeaA1S",
+      "added_at": "2024-06-11T00:09:09Z"
+    },
+    {
+      "id": "4ywML3rFjamKeKg1GE689X",
+      "artist_name": "Warpaint",
+      "song_name": "Common Blue",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273810b33fd91f377f10da74420",
+      "song_link": "https://open.spotify.com/track/4ywML3rFjamKeKg1GE689X",
+      "added_at": "2024-06-11T00:09:24Z"
+    },
+    {
+      "id": "4YhwwHbO9mDx3OUYc8Dkuq",
+      "artist_name": "The Smithereens",
+      "song_name": "It Don't Come Easy",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273f6298a7833d4ad03f6616096",
+      "song_link": "https://open.spotify.com/track/4YhwwHbO9mDx3OUYc8Dkuq",
+      "added_at": "2024-06-11T00:09:28Z"
+    },
+    {
+      "id": "4m8XQcbzTQIhOQ8QpLQDTX",
+      "artist_name": "Material Issue",
+      "song_name": "Valerie Loves Me",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b27394db05f4e360c3c14374d7b0",
+      "song_link": "https://open.spotify.com/track/4m8XQcbzTQIhOQ8QpLQDTX",
+      "added_at": "2024-06-11T00:09:34Z"
+    },
+    {
+      "id": "3zddpEdCXUZtBqCqjsrbD8",
+      "artist_name": "Naked Eyes",
+      "song_name": "When The Lights Go Out (Album Version)",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273595b2151678c93b08389b9f8",
+      "song_link": "https://open.spotify.com/track/3zddpEdCXUZtBqCqjsrbD8",
+      "added_at": "2024-06-11T00:09:39Z"
+    },
+    {
+      "id": "0uyhfcyZokkClwL2nHwcvy",
+      "artist_name": "Naked Eyes",
+      "song_name": "Cry Baby Cry (Album Version)",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273595b2151678c93b08389b9f8",
+      "song_link": "https://open.spotify.com/track/0uyhfcyZokkClwL2nHwcvy",
+      "added_at": "2024-06-11T00:09:44Z"
+    },
+    {
+      "id": "78lCLFA5zlk1gDav8V9Tci",
+      "artist_name": "Linda Perhacs",
+      "song_name": "Take Your Love To A Higher Level",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273d4311864daf1bb85c7ee3206",
+      "song_link": "https://open.spotify.com/track/78lCLFA5zlk1gDav8V9Tci",
+      "added_at": "2024-06-11T00:09:56Z"
+    },
+    {
+      "id": "6yjc91xLwWlQAKoV9zWbRp",
+      "artist_name": "Yebba",
+      "song_name": "Waterfall (I Adore You) (feat. Sweata)",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273485e4c55af44639eb81ec64a",
+      "song_link": "https://open.spotify.com/track/6yjc91xLwWlQAKoV9zWbRp",
+      "added_at": "2024-06-11T00:10:25Z"
+    },
+    {
+      "id": "5XrFMPAXaxXewtKnGcTBaJ",
+      "artist_name": "Ariel Pink",
+      "song_name": "Kitchen Witch",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b27332476b84d0fa60f0326653bb",
+      "song_link": "https://open.spotify.com/track/5XrFMPAXaxXewtKnGcTBaJ",
+      "added_at": "2024-06-11T00:10:36Z"
+    },
+    {
+      "id": "5OmK8vY8AKTme33WqOuLs7",
+      "artist_name": "mary bugbee",
+      "song_name": "EMO!!",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2739bc0832ce2ffb9065c3baa02",
+      "song_link": "https://open.spotify.com/track/5OmK8vY8AKTme33WqOuLs7",
+      "added_at": "2024-06-11T00:10:44Z"
+    },
+    {
+      "id": "47JE5lzJ9EbSApMShcs1ie",
+      "artist_name": "Slow Pulp",
+      "song_name": "Brett Favre",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273ab05134b5a18a031c20a5fa8",
+      "song_link": "https://open.spotify.com/track/47JE5lzJ9EbSApMShcs1ie",
+      "added_at": "2024-06-11T00:10:53Z"
+    },
+    {
+      "id": "2aacTP9eCLypm8J5Sxvd3X",
+      "artist_name": "The Weather Station",
+      "song_name": "Like Sisters",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273ea192e4954c07590d3099247",
+      "song_link": "https://open.spotify.com/track/2aacTP9eCLypm8J5Sxvd3X",
+      "added_at": "2024-06-11T00:11:00Z"
+    },
+    {
+      "id": "32tzD2DlyIyPsMMsxwzKkX",
+      "artist_name": "The Weather Station",
+      "song_name": "Shy Women",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273ea192e4954c07590d3099247",
+      "song_link": "https://open.spotify.com/track/32tzD2DlyIyPsMMsxwzKkX",
+      "added_at": "2024-06-11T00:11:03Z"
+    },
+    {
+      "id": "7gZ7CFs9RPYgZJZv3FSJC3",
+      "artist_name": "The Weather Station",
+      "song_name": "Way It Is, Way It Could Be",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273ea192e4954c07590d3099247",
+      "song_link": "https://open.spotify.com/track/7gZ7CFs9RPYgZJZv3FSJC3",
+      "added_at": "2024-06-11T00:11:05Z"
+    },
+    {
+      "id": "0q0Vlb5g3DV8pysqIllbiR",
+      "artist_name": "Indigo Sparke",
+      "song_name": "Everything Everything",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2732a8081249b6090274b9d4823",
+      "song_link": "https://open.spotify.com/track/0q0Vlb5g3DV8pysqIllbiR",
+      "added_at": "2024-06-11T00:11:15Z"
+    },
+    {
+      "id": "5PU9icdgb7ZKWtglotmf88",
+      "artist_name": "Tim Bowness",
+      "song_name": "Sing to Me",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273dc4b8727de80b22ca1c98ba3",
+      "song_link": "https://open.spotify.com/track/5PU9icdgb7ZKWtglotmf88",
+      "added_at": "2024-06-11T00:11:18Z"
+    },
+    {
+      "id": "1zwiwqWEsxlY14ScOlzGxw",
+      "artist_name": "The Weather Station",
+      "song_name": "Ignorance",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2738f3df7deaf0536f29d35932d",
+      "song_link": "https://open.spotify.com/track/1zwiwqWEsxlY14ScOlzGxw",
+      "added_at": "2024-06-11T00:11:29Z"
+    },
+    {
+      "id": "5xxXKnuE9iNJaFK20Rq78h",
+      "artist_name": "The Weather Station",
+      "song_name": "Sway",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2738f3df7deaf0536f29d35932d",
+      "song_link": "https://open.spotify.com/track/5xxXKnuE9iNJaFK20Rq78h",
+      "added_at": "2024-06-11T00:11:35Z"
+    },
+    {
+      "id": "24NdgA2fDnioRZeOsOtZQs",
+      "artist_name": "The Weather Station",
+      "song_name": "Power",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273b21d797800e56bcdbee20476",
+      "song_link": "https://open.spotify.com/track/24NdgA2fDnioRZeOsOtZQs",
+      "added_at": "2024-06-11T00:11:39Z"
+    },
+    {
+      "id": "5h7PiEcKtJpOyCZ2pNMO1E",
+      "artist_name": "The Weather Station",
+      "song_name": "Free",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273b21d797800e56bcdbee20476",
+      "song_link": "https://open.spotify.com/track/5h7PiEcKtJpOyCZ2pNMO1E",
+      "added_at": "2024-06-11T00:11:41Z"
+    },
+    {
+      "id": "6alYqV2SrYHcR6Xa8HlZCp",
+      "artist_name": "The Weather Station",
+      "song_name": "Black Flies",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273b21d797800e56bcdbee20476",
+      "song_link": "https://open.spotify.com/track/6alYqV2SrYHcR6Xa8HlZCp",
+      "added_at": "2024-06-11T00:11:49Z"
+    },
+    {
+      "id": "5OXKRcuhKDHZgAWGl2dKKJ",
+      "artist_name": "Indigo Sparke",
+      "song_name": "Burn",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2730f13ef5d282f17ceac4c3b28",
+      "song_link": "https://open.spotify.com/track/5OXKRcuhKDHZgAWGl2dKKJ",
+      "added_at": "2024-06-11T00:12:33Z"
+    },
+    {
+      "id": "0y0eDMd6ZaQVtalt7MpvfI",
+      "artist_name": "The Weather Station",
+      "song_name": "Impossible",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273b21d797800e56bcdbee20476",
+      "song_link": "https://open.spotify.com/track/0y0eDMd6ZaQVtalt7MpvfI",
+      "added_at": "2024-06-11T00:12:41Z"
+    },
+    {
+      "id": "1aKNUssPQ9F7GRteYrnJIc",
+      "artist_name": "The Weather Station",
+      "song_name": "Kept It All to Myself",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273b21d797800e56bcdbee20476",
+      "song_link": "https://open.spotify.com/track/1aKNUssPQ9F7GRteYrnJIc",
+      "added_at": "2024-06-11T00:12:51Z"
+    },
+    {
+      "id": "17JBtTBorAVZIsZZew2xWr",
+      "artist_name": "The Weather Station",
+      "song_name": "You and I (On the Other Side of the World)",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273b21d797800e56bcdbee20476",
+      "song_link": "https://open.spotify.com/track/17JBtTBorAVZIsZZew2xWr",
+      "added_at": "2024-06-11T00:12:58Z"
+    },
+    {
+      "id": "2TQXJmPwCgmIXpAtz9dyCI",
+      "artist_name": "The Weather Station",
+      "song_name": "Thirty",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273b21d797800e56bcdbee20476",
+      "song_link": "https://open.spotify.com/track/2TQXJmPwCgmIXpAtz9dyCI",
+      "added_at": "2024-06-11T00:13:11Z"
+    },
+    {
+      "id": "124pMEK5vUgqzV7ZrJdZHn",
+      "artist_name": "Counting Crows",
+      "song_name": "Children In Bloom",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2736768a33a2b2050c63ad34585",
+      "song_link": "https://open.spotify.com/track/124pMEK5vUgqzV7ZrJdZHn",
+      "added_at": "2024-06-11T00:13:24Z"
+    },
+    {
+      "id": "4ZyesJaAYfWvk5Q3mVkIyB",
+      "artist_name": "Live",
+      "song_name": "Horse",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b27323d8d82a798baa960fdb5070",
+      "song_link": "https://open.spotify.com/track/4ZyesJaAYfWvk5Q3mVkIyB",
+      "added_at": "2024-06-11T00:13:33Z"
+    },
+    {
+      "id": "7MhDU9xSWM1LPQGPFkAEJC",
+      "artist_name": "Simple Minds",
+      "song_name": "New Gold Dream (81/82/83/84)",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273f587148621b34bd660ac39de",
+      "song_link": "https://open.spotify.com/track/7MhDU9xSWM1LPQGPFkAEJC",
+      "added_at": "2024-06-11T00:13:39Z"
+    },
+    {
+      "id": "6zpXDOBrBJWEtWpJSwmlEA",
+      "artist_name": "Duran Duran",
+      "song_name": "So Long Suicide",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273ef0accb78547ac3e753a1f4c",
+      "song_link": "https://open.spotify.com/track/6zpXDOBrBJWEtWpJSwmlEA",
+      "added_at": "2024-06-11T00:14:09Z"
+    },
+    {
+      "id": "1rw9dOKuewBiKfVHgUPDfo",
+      "artist_name": "Alvvays",
+      "song_name": "Pressed",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2738f1ebf73130fc32aa3bf2b06",
+      "song_link": "https://open.spotify.com/track/1rw9dOKuewBiKfVHgUPDfo",
+      "added_at": "2024-06-11T00:14:13Z"
+    },
+    {
+      "id": "0TJXTmNL8xSSZfEfcZ9dGA",
+      "artist_name": "Slow Pulp",
+      "song_name": "Whispers (In The Outfield)",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b27352a17efb55a62f0a7e7f7713",
+      "song_link": "https://open.spotify.com/track/0TJXTmNL8xSSZfEfcZ9dGA",
+      "added_at": "2024-06-11T00:14:16Z"
+    },
+    {
+      "id": "1cg4xD453Wuol9fNsRDbsV",
+      "artist_name": "Fontaines D.C.",
+      "song_name": "Starburster",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2730aa950a429f1a159fa211a75",
+      "song_link": "https://open.spotify.com/track/1cg4xD453Wuol9fNsRDbsV",
+      "added_at": "2024-06-11T00:39:08Z"
+    },
+    {
+      "id": "4n8Syhm2XQOvenU8SnVAhZ",
+      "artist_name": "Adam Lambert",
+      "song_name": "Mad World - Live at Glam Nation",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2733710efe4fd2f41885ec907f6",
+      "song_link": "https://open.spotify.com/track/4n8Syhm2XQOvenU8SnVAhZ",
+      "added_at": "2024-06-11T17:17:53Z"
+    },
+    {
+      "id": "4nSzkb7SZQ40XX8iwHHLx4",
+      "artist_name": "TOPS",
+      "song_name": "Dayglow Bimbo",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b27355ce18e7e12c32c519a8425f",
+      "song_link": "https://open.spotify.com/track/4nSzkb7SZQ40XX8iwHHLx4",
+      "added_at": "2024-06-12T16:44:57Z"
+    },
+    {
+      "id": "4f0unD2sL0cryZWcrVfMsl",
+      "artist_name": "Material Issue",
+      "song_name": "What Girls Want",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273f5645aa57a92615a1d4e78ec",
+      "song_link": "https://open.spotify.com/track/4f0unD2sL0cryZWcrVfMsl",
+      "added_at": "2024-06-13T18:03:49Z"
+    },
+    {
+      "id": "3nWKhZau2Mip0HLogb9giv",
+      "artist_name": "Nina Hagen",
+      "song_name": "Tiatschi - Tarot",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273ac3406bc03f31b5de360e535",
+      "song_link": "https://open.spotify.com/track/3nWKhZau2Mip0HLogb9giv",
+      "added_at": "2024-06-13T18:08:32Z"
+    },
+    {
+      "id": "5gaUkg5JNk8c4mr2jnpX8H",
+      "artist_name": "George Benson",
+      "song_name": "Give Me the Night",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2739877c2b01fca3367809f9e27",
+      "song_link": "https://open.spotify.com/track/5gaUkg5JNk8c4mr2jnpX8H",
+      "added_at": "2024-06-14T16:08:38Z"
+    },
+    {
+      "id": "3IvTwPCCjfZczCN2k4qPiH",
+      "artist_name": "Steely Dan",
+      "song_name": "Dirty Work",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2730ddd7e736f870994f4707947",
+      "song_link": "https://open.spotify.com/track/3IvTwPCCjfZczCN2k4qPiH",
+      "added_at": "2024-06-21T17:08:19Z"
+    },
+    {
+      "id": "0x0F5JaMU5auzv74UQLJeu",
+      "artist_name": "Duffy",
+      "song_name": "Rockferry",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b27387c95c59b33bdfdafc25a813",
+      "song_link": "https://open.spotify.com/track/0x0F5JaMU5auzv74UQLJeu",
+      "added_at": "2024-06-21T17:08:47Z"
+    },
+    {
+      "id": "3a625A71fRBusw4OKc1ySj",
+      "artist_name": "The Weather Station",
+      "song_name": "Personal Eclipse",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273ea192e4954c07590d3099247",
+      "song_link": "https://open.spotify.com/track/3a625A71fRBusw4OKc1ySj",
+      "added_at": "2024-06-21T22:27:51Z"
+    },
+    {
+      "id": "6Mmdb28xvw89LnGHVTuyHw",
+      "artist_name": "Kacy & Clayton",
+      "song_name": "Devil\u2019s Daughter",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273f735a08e2ec0fb2be5fc250c",
+      "song_link": "https://open.spotify.com/track/6Mmdb28xvw89LnGHVTuyHw",
+      "added_at": "2024-06-22T00:49:09Z"
+    },
+    {
+      "id": "39cFRTHSuN1KfKHHsYDlqR",
+      "artist_name": "Kacy & Clayton",
+      "song_name": "Springtime Of The Year",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2734626921f137e0b3fd6ffbe62",
+      "song_link": "https://open.spotify.com/track/39cFRTHSuN1KfKHHsYDlqR",
+      "added_at": "2024-06-22T00:50:03Z"
+    },
+    {
+      "id": "3qtIvjBFZnXMoTqsxfoih5",
+      "artist_name": "Kacy & Clayton",
+      "song_name": "The Light Of Day",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2735946167744c7e1217e1d482e",
+      "song_link": "https://open.spotify.com/track/3qtIvjBFZnXMoTqsxfoih5",
+      "added_at": "2024-06-22T00:53:07Z"
+    },
+    {
+      "id": "2YKcoTwVCuVIh9HxTD4zmE",
+      "artist_name": "Kacy & Clayton",
+      "song_name": "Light of Love",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273f735a08e2ec0fb2be5fc250c",
+      "song_link": "https://open.spotify.com/track/2YKcoTwVCuVIh9HxTD4zmE",
+      "added_at": "2024-06-22T01:02:27Z"
+    },
+    {
+      "id": "0KpotGMCWUg8czMdCgw0BY",
+      "artist_name": "Samantha Crain",
+      "song_name": "Reunion",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2739bfcb17cbaf4a8a61ba354b9",
+      "song_link": "https://open.spotify.com/track/0KpotGMCWUg8czMdCgw0BY",
+      "added_at": "2024-06-22T15:58:50Z"
+    },
+    {
+      "id": "315oShanenvc924dXOi7od",
+      "artist_name": "Duran Duran",
+      "song_name": "Secret Oktober - 2010 Remaster",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273b66a8f4f3f57f2cc43c88775",
+      "song_link": "https://open.spotify.com/track/315oShanenvc924dXOi7od",
+      "added_at": "2024-06-24T13:43:38Z"
+    },
+    {
+      "id": "2FodzKULVjGmnN6orI4LNQ",
+      "artist_name": "Lula Wiles",
+      "song_name": "Television",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2735a2a5f200bd666a130e4167f",
+      "song_link": "https://open.spotify.com/track/2FodzKULVjGmnN6orI4LNQ",
+      "added_at": "2024-06-24T21:01:53Z"
+    },
+    {
+      "id": "29lljQQOZikL3BwRX2ekDC",
+      "artist_name": "RAYE",
+      "song_name": "Oscar Winning Tears. - Live at the Royal Albert Hall",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273a69cbb1d340870a56b42aed8",
+      "song_link": "https://open.spotify.com/track/29lljQQOZikL3BwRX2ekDC",
+      "added_at": "2024-06-25T01:39:38Z"
+    },
+    {
+      "id": "7y5nJToPWMjtJLcLEGxyGf",
+      "artist_name": "Steely Dan",
+      "song_name": "Midnite Cruiser",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2730ddd7e736f870994f4707947",
+      "song_link": "https://open.spotify.com/track/7y5nJToPWMjtJLcLEGxyGf",
+      "added_at": "2024-06-25T18:26:55Z"
+    },
+    {
+      "id": "2bMhQ5kJTFTKEKBFzkMBvN",
+      "artist_name": "RAYE",
+      "song_name": "Genesis.",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b273b21b78e708a0b8012745293d",
+      "song_link": "https://open.spotify.com/track/2bMhQ5kJTFTKEKBFzkMBvN",
+      "added_at": "2024-06-25T20:45:33Z"
+    },
+    {
+      "id": "2aNLe4KxMByyqjhmVvR3or",
+      "artist_name": "Frank Zappa",
+      "song_name": "Valley Girl",
+      "image_link": "https://i.scdn.co/image/ab67616d0000b2732c59ed625fa4026ee3d77027",
+      "song_link": "https://open.spotify.com/track/2aNLe4KxMByyqjhmVvR3or",
+      "added_at": "2024-06-26T14:17:41Z"
+    }
+  ],
+  "approx_created_at": "2024-06-10T19:46:05Z"
+}
